@@ -5746,3 +5746,7 @@ Caused by: java.lang.NullPointerException
 	at net.minecraft.util.Util.runTask(Util.java:50) ~[Util.class:?]
 	... 5 more
 [22:45:46] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Ringing...
+[22:46:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[22:47:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[22:47:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[22:48:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
