@@ -9,6 +9,7 @@ import fr.gabidut76.mods.phonemod.proxy.CommonProxy;
 import fr.gabidut76.mods.phonemod.tabs.MainTab;
 import fr.gabidut76.mods.phonemod.util.Ref;
 import fr.gabidut76.mods.phonemod.util.command.CommandPhoneMod;
+import fr.gabidut76.mods.phonemod.util.network.PacketMainMenu;
 import fr.gabidut76.mods.phonemod.util.network.PacketOpenConfig;
 import fr.nathanael2611.modularvoicechat.api.VoiceDispatchEvent;
 import fr.nathanael2611.simpledatabasemanager.core.Database;
@@ -66,6 +67,7 @@ public class PhoneMod {
             }
         }
         network.registerMessage(PacketOpenConfig.Handler.class, PacketOpenConfig.class, 0, Side.CLIENT);
+        network.registerMessage(PacketMainMenu.Handler.class, PacketMainMenu.class, 1, Side.CLIENT);
         SyncedDatabases.add("phonemod_data");
         dbPhones = Databases.getDatabase("phonemod_data");
 

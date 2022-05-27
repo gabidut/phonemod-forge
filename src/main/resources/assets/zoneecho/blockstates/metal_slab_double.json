@@ -1,9 +1,0 @@
-{
-  "variants":
-  {
-    "variant=default": { "model": "zoneecho:metal_slab_double" }
-  }, "inventory":
-{
-  "model": "zoneecho:metal_slab_double"
-}
-}

@@ -3,9 +3,11 @@ package fr.gabidut76.mods.phonemod.objects.blocks;
 import fr.dynamx.common.blocks.DynamXBlock;
 import fr.gabidut76.mods.phonemod.PhoneMod;
 import fr.gabidut76.mods.phonemod.objects.tiles.TilePhone;
+import fr.gabidut76.mods.phonemod.util.network.PacketMainMenu;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
@@ -13,6 +15,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 import javax.annotation.Nullable;
+import java.util.Objects;
 
 public class BlockDynxPhone extends DynamXBlock {
     int min = 1111;
@@ -38,7 +41,7 @@ public class BlockDynxPhone extends DynamXBlock {
 
     @Override
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
-
+        PhoneMod.network.sendTo(new PacketMainMenu(Objects.requireNonNull(worldIn.getTileEntity(pos)).getTileData().getInteger("code")), (EntityPlayerMP) playerIn);
         return true;
     }
 
