@@ -1,4 +1,4 @@
-package fr.zoneecho.mod.util.command;
+package fr.gabidut76.mods.phonemod.util.command;
 
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;

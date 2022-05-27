@@ -1,6 +1,6 @@
-package fr.zoneecho.mod.util.handlers;
+package fr.gabidut76.mods.phonemod.util.handlers;
 
-import fr.zoneecho.mod.util.Ref;
+import fr.gabidut76.mods.phonemod.util.Ref;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.event.ServerChatEvent;

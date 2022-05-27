@@ -1,4 +1,4 @@
-package fr.zoneecho.mod.util;
+package fr.gabidut76.mods.phonemod.util;
 
 public class Ref
 {

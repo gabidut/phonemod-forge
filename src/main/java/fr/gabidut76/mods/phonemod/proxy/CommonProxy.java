@@ -1,4 +1,4 @@
-package fr.zoneecho.mod.proxy;
+package fr.gabidut76.mods.phonemod.proxy;
 
 import net.minecraft.item.Item;
 import net.minecraftforge.common.MinecraftForge;
