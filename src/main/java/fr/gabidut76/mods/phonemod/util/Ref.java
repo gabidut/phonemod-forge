@@ -7,7 +7,6 @@ public class Ref
     public static final String VERSION = "V1.0";
     public static final String CLIENT = "fr.gabidut76.mods.phonemod.proxy.ClientProxy";
     public static final String COMMON = "fr.gabidut76.mods.phonemod.proxy.CommonProxy";
-    public static Boolean optiFPS = false;
 
 
 

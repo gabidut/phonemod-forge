@@ -3,7 +3,6 @@ package fr.gabidut76.mods.phonemod.util.gui;
 import fr.aym.acsguis.component.layout.GuiScaler;
 import fr.aym.acsguis.component.panel.GuiFrame;
 import fr.aym.acsguis.component.panel.GuiPanel;
-import fr.aym.acsguis.component.textarea.GuiTextArea;
 import fr.gabidut76.mods.phonemod.util.Ref;
 import net.minecraft.util.ResourceLocation;
 
@@ -16,7 +15,6 @@ public class GuiMain extends GuiFrame {
         GuiPanel panel = new GuiPanel();
 
 
-        panel.add(message);
         add(panel);
     }
 

@@ -12,9 +12,11 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.Explosion;
 import net.minecraft.world.World;
 
 import javax.annotation.Nullable;
+import java.util.HashMap;
 import java.util.Objects;
 
 public class BlockDynxPhone extends DynamXBlock {
@@ -30,7 +32,14 @@ public class BlockDynxPhone extends DynamXBlock {
     @Override
     public void onBlockAdded(World worldIn, BlockPos pos, IBlockState state) {
         if(!worldIn.isRemote) {
+
             int random_int = (int)Math.floor(Math.random()*(max-min+1)+min);
+            // save as hasmap the world and the pos
+            HashMap<Integer, BlockPos> map = new HashMap<>();
+            map.put(random_int, pos);
+            PhoneMod.dbPhones.setHashMap(String.valueOf(random_int), map);
+
+
             TileEntity tileEntity = worldIn.getTileEntity(pos);
             assert tileEntity != null;
             tileEntity.getTileData().setInteger("code", random_int);
@@ -38,10 +47,32 @@ public class BlockDynxPhone extends DynamXBlock {
         }
     }
 
+    @Override
+    public void onBlockExploded(World world, BlockPos pos, Explosion explosion) {
+        if(world.isRemote) {
+            PhoneMod.dbPhones.remove(String.valueOf(Objects.requireNonNull(world.getTileEntity(pos)).getTileData().getInteger("code")));
+        }
+    }
+
+    @Override
+    public void onBlockDestroyedByExplosion(World worldIn, BlockPos pos, Explosion explosionIn) {
+        if(!worldIn.isRemote) {
+            PhoneMod.dbPhones.remove(String.valueOf(Objects.requireNonNull(worldIn.getTileEntity(pos)).getTileData().getInteger("code")));
+        }
+    }
+
+    @Override
+    public void onBlockDestroyedByPlayer(World worldIn, BlockPos pos, IBlockState state) {
+        if(!worldIn.isRemote) {
+            PhoneMod.dbPhones.remove(String.valueOf(Objects.requireNonNull(worldIn.getTileEntity(pos)).getTileData().getInteger("code")));
+        }
+    }
 
     @Override
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
-        PhoneMod.network.sendTo(new PacketMainMenu(Objects.requireNonNull(worldIn.getTileEntity(pos)).getTileData().getInteger("code")), (EntityPlayerMP) playerIn);
+        if(!worldIn.isRemote) {
+            PhoneMod.network.sendTo(new PacketMainMenu(Objects.requireNonNull(worldIn.getTileEntity(pos)).getTileData().getInteger("code")), (EntityPlayerMP) playerIn);
+        }
         return true;
     }
 
