@@ -4,11 +4,12 @@ import fr.gabidut76.mods.phonemod.PhoneMod;
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
+import net.minecraft.init.SoundEvents;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextComponentString;
 
-import java.util.HashMap;
 import java.util.Objects;
 
 public class CommandPhoneMod extends CommandBase {
@@ -28,9 +29,12 @@ public class CommandPhoneMod extends CommandBase {
     public void execute(MinecraftServer server, ICommandSender sender, String[] args) throws CommandException {
         if(Objects.equals(args[0], "ring")) {
             sender.sendMessage(new TextComponentString("Ringing..."));
-            HashMap<Integer, BlockPos> map = (HashMap<Integer, BlockPos>) PhoneMod.dbPhones.getHashMap(args[0]);
-            sender.sendMessage(new TextComponentString(map.toString()));
-            sender.sendMessage(new TextComponentString(map.get(args[0].toString()).toString()));
+            BlockPos pos = PhoneMod.dbPhones.get(args[1]).asBlockPos();
+
+            sender.getEntityWorld().playSound(pos.getX(), pos.getY(), pos.getZ(), SoundEvents.BLOCK_ANVIL_BREAK, SoundCategory.BLOCKS, 1, 1, true);
+
+            // TODO: try and catch if null pointer exception number isn't in the database so no attributed
+
 
 
         }

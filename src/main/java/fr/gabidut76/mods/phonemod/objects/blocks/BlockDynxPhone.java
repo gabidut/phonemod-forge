@@ -16,7 +16,6 @@ import net.minecraft.world.Explosion;
 import net.minecraft.world.World;
 
 import javax.annotation.Nullable;
-import java.util.HashMap;
 import java.util.Objects;
 
 public class BlockDynxPhone extends DynamXBlock {
@@ -35,9 +34,7 @@ public class BlockDynxPhone extends DynamXBlock {
 
             int random_int = (int)Math.floor(Math.random()*(max-min+1)+min);
             // save as hasmap the world and the pos
-            HashMap<Integer, BlockPos> map = new HashMap<>();
-            map.put(random_int, pos);
-            PhoneMod.dbPhones.setHashMap(String.valueOf(random_int), map);
+            PhoneMod.dbPhones.setBlockPos(String.valueOf(random_int), pos);
 
 
             TileEntity tileEntity = worldIn.getTileEntity(pos);
