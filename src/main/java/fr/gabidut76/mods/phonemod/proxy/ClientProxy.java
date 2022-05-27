@@ -1,6 +1,8 @@
 package fr.gabidut76.mods.phonemod.proxy;
 
+import fr.aym.acsguis.api.ACsGuiApi;
 import net.minecraft.item.Item;
+import net.minecraft.util.ResourceLocation;
 
 public class ClientProxy extends CommonProxy
 {
@@ -19,6 +21,7 @@ public class ClientProxy extends CommonProxy
     @Override
     public void preInit()
     {
+        ACsGuiApi.registerStyleSheetToPreload(new ResourceLocation("dynamxmod", "css/main.css"));
         super.preInit();
     }
 }
