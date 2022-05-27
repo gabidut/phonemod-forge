@@ -5,9 +5,6 @@ import net.minecraft.item.Item;
 public class ClientProxy extends CommonProxy
 {
 
-
-
-
     @Override
     public void registerVariantRenderer(Item item, int meta, String filename, String id) {
         super.registerVariantRenderer(item, meta, filename, id);

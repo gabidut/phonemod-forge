@@ -15,9 +15,6 @@ public class GuiMain extends GuiFrame {
         super(new GuiScaler.Identity());
         GuiPanel panel = new GuiPanel();
 
-        GuiTextArea message = new GuiTextArea();
-        message.setCssId("msg");
-        message.setHintText(String.valueOf(phoneNumber));
 
         panel.add(message);
         add(panel);

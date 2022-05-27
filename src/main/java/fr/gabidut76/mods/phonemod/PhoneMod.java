@@ -34,7 +34,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.HashMap;
 
-@DynamXAddon(modid = Ref.MODID, name = "zoneecho", version = Ref.VERSION)
+@DynamXAddon(modid = Ref.MODID, name = "phonemod", version = Ref.VERSION)
 @Mod(modid = Ref.MODID, name = Ref.NAME, version = Ref.VERSION, dependencies = "before: dynamxmod;after: sdm;required-after:modularvc")
 @Mod.EventBusSubscriber(modid = Ref.MODID)
 public class PhoneMod {
@@ -55,7 +55,7 @@ public class PhoneMod {
         logger = e.getModLog();
         proxy.preInit();
         /* network */
-        network = NetworkRegistry.INSTANCE.newSimpleChannel("zoneecho");
+        network = NetworkRegistry.INSTANCE.newSimpleChannel("phonemod");
 
         if(e.getSide().isClient()) {
             ACsGuiApi.registerStyleSheetToPreload(new ResourceLocation(Ref.MODID,"css/config.css"));
