@@ -20,6 +20,7 @@ public class GuiMain extends GuiFrame {
 
         GuiPanel home = new GuiPanel();
         home.setCssClass("home");
+
         GuiPanel one = new GuiPanel();
         one.setCssClass("1");
         one.setCssId("1");
