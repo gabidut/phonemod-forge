@@ -1,0 +1,49 @@
+#panel {
+    height: 80%;
+    width: 40%;
+    left: 25%;
+    right: 25%;
+    top: 10%;
+    border-radius: 10px;
+    background-color: darkgray;
+
+}
+
+#msg {
+    width: 90%;
+    left: 5%;
+    right:5%;
+    top: 5%;
+    padding: 5px;
+    height: 50%;
+    border: none;
+}
+
+#val {
+    width: 20%;
+    left: 40%;
+    right:40%;
+    top: 60%;
+    height: 10%;
+    border: none;
+    background-color: none;
+}
+
+#speak {
+    width: 40%;
+    left: 40%;
+    right:40%;
+    top: 70%;
+    height: 10%;
+    border: none;
+    background-color: none;
+}
+#unspeak {
+    width: 40%;
+    left: 40%;
+    right:40%;
+    top: 80%;
+    height: 10%;
+    border: none;
+    background-color: none;
+}

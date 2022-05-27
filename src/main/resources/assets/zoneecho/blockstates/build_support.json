@@ -1,0 +1,17 @@
+{
+  "variants":
+  {
+    "facing=north": { "model": "zoneecho:build_support" },
+    "facing=east":  { "model": "zoneecho:build_support", "y": 90 },
+    "facing=south": { "model": "zoneecho:build_support", "y": 180 },
+    "facing=west":  { "model": "zoneecho:build_support", "y": 270 },
+    "normal":
+    {
+      "model": "zoneecho:build_support"
+    },
+    "inventory":
+    {
+      "model": "zoneecho:build_support"
+    }
+  }
+}

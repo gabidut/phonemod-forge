@@ -1,0 +1,17 @@
+{
+  "variants":
+  {
+    "facing=north": { "model": "zoneecho:vertical_cyan_wall" },
+    "facing=east":  { "model": "zoneecho:vertical_cyan_wall", "y": 90 },
+    "facing=south": { "model": "zoneecho:vertical_cyan_wall", "y": 180 },
+    "facing=west":  { "model": "zoneecho:vertical_cyan_wall", "y": 270 },
+    "normal":
+    {
+      "model": "zoneecho:vertical_cyan_wall"
+    },
+    "inventory":
+    {
+      "model": "zoneecho:vertical_cyan_wall"
+    }
+  }
+}

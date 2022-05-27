@@ -1,0 +1,17 @@
+{
+  "variants":
+  {
+    "facing=north": { "model": "zoneecho:grille1" },
+    "facing=east":  { "model": "zoneecho:grille1", "y": 90 },
+    "facing=south": { "model": "zoneecho:grille1", "y": 180 },
+    "facing=west":  { "model": "zoneecho:grille1", "y": 270 },
+    "normal":
+    {
+      "model": "zoneecho:grille1"
+    },
+    "inventory":
+    {
+      "model": "zoneecho:grille1"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "variants":
+  {
+    "facing=north": { "model": "zoneecho:buildsupport.obj" },
+    "facing=east":  { "model": "zoneecho:buildsupport.obj", "y": 90 },
+    "facing=south": { "model": "zoneecho:buildsupport.obj", "y": 180 },
+    "facing=west":  { "model": "zoneecho:buildsupport.obj", "y": 270 },
+    "normal":
+    {
+      "model": "zoneecho:buildsupport.obj"
+    },
+    "inventory":
+    {
+      "model": "zoneecho:buildsupport.obj"
+    }
+  }
+}

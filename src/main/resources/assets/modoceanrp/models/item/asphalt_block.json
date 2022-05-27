@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "layer0": "modoceanrp:blocks/asphalt_block"
-  }
-}

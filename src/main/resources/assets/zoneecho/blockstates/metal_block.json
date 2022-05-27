@@ -1,0 +1,17 @@
+{
+  "variants":
+  {
+    "facing=north": { "model": "zoneecho:metal_block" },
+    "facing=east":  { "model": "zoneecho:metal_block", "y": 90 },
+    "facing=south": { "model": "zoneecho:metal_block", "y": 180 },
+    "facing=west":  { "model": "zoneecho:metal_block", "y": 270 },
+    "normal":
+    {
+      "model": "zoneecho:metal_block"
+    },
+    "inventory":
+    {
+      "model": "zoneecho:metal_block"
+    }
+  }
+}

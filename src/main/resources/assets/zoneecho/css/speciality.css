@@ -1,0 +1,36 @@
+#panel {
+    top: 15%;
+    height: 80%;
+    bottom: 10%;
+
+    width: 30%;
+    left: 35%;
+    right: 35%;
+
+    border-radius: 10px;
+    background-color: #4B4B4B;
+}
+#speL {
+    top: 5%;
+    width: 90%;
+    left: 5%;
+}
+#lvlL {
+    top: 25%;
+    width: 90%;
+    left: 5%;
+}
+
+#xp {
+   top: 15%;
+   width: 90%;
+   left: 5%;
+}
+
+#btnok {
+    top: 40%;
+}
+#val {
+    background-color: translucent;
+    border: none;
+}

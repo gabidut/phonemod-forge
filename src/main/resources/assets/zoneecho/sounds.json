@@ -1,0 +1,26 @@
+{
+  "master.ping": {
+    "category": "master",
+    "subtitle": "",
+    "sounds": [{
+      "name": "zoneecho:master.ping",
+      "stream": true
+    }]
+  },
+  "master.keycardok": {
+    "category": "master",
+    "subtitle": "",
+    "sounds": [{
+      "name": "zoneecho:master.keycardok",
+      "stream": true
+    }]
+  },
+  "master.keycardno": {
+    "category": "master",
+    "subtitle": "",
+    "sounds": [{
+      "name": "zoneecho:master.keycardno",
+      "stream": true
+    }]
+  }
+}

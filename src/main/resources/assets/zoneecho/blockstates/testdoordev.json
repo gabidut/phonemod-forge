@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "variants":
+  {
+    "facing=north,powered=true":  { "model": "zoneecho:ground", "y": 270 },
+    "facing=north,powered=false": { "model": "zoneecho:red_wall", "y": 180 },
+
+    "facing=east,powered=true":  { "model": "zoneecho:ground", "y": 0 },
+    "facing=east,powered=false": { "model": "zoneecho:red_wall", "y": 0},
+
+    "facing=south,powered=true":  { "model": "zoneecho:ground", "y": 90 },
+    "facing=south,powered=false": { "model": "zoneecho:red_wall", "y": 90},
+
+    "facing=west,powered=true":  { "model": "zoneecho:ground", "y": 180 },
+    "facing=west,powered=false": { "model": "zoneecho:red_wall", "y": 180},
+    "normal":
+    {
+      "model": "zoneecho:ground"
+    },
+    "inventory":
+    {
+      "model": "zoneecho:ground"
+    }
+  }
+}
+

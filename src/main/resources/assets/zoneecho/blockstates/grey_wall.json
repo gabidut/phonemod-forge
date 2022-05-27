@@ -1,0 +1,17 @@
+{
+  "variants":
+  {
+    "facing=north": { "model": "zoneecho:grey_wall" },
+    "facing=east":  { "model": "zoneecho:grey_wall", "y": 90 },
+    "facing=south": { "model": "zoneecho:grey_wall", "y": 180 },
+    "facing=west":  { "model": "zoneecho:grey_wall", "y": 270 },
+    "normal":
+    {
+      "model": "zoneecho:grey_wall"
+    },
+    "inventory":
+    {
+      "model": "zoneecho:grey_wall"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "variants":
+  {
+    "facing=north": { "model": "zoneecho:top_lamp" },
+    "facing=east":  { "model": "zoneecho:top_lamp", "y": 90 },
+    "facing=south": { "model": "zoneecho:top_lamp", "y": 180 },
+    "facing=west":  { "model": "zoneecho:top_lamp", "y": 270 },
+    "normal":
+    {
+      "model": "zoneecho:top_lamp"
+    },
+    "inventory":
+    {
+      "model": "zoneecho:top_lamp"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "variants":
+  {
+    "facing=north": { "model": "zoneecho:white_cylinder" },
+    "facing=east":  { "model": "zoneecho:white_cylinder", "y": 90 },
+    "facing=south": { "model": "zoneecho:white_cylinder", "y": 180 },
+    "facing=west":  { "model": "zoneecho:white_cylinder", "y": 270 },
+    "normal":
+    {
+      "model": "zoneecho:white_cylinder"
+    },
+    "inventory":
+    {
+      "model": "zoneecho:white_cylinder"
+    }
+  }
+}

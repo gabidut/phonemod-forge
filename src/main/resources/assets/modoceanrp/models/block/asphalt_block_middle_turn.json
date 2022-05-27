@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures":
-  {
-    "all": "modoceanrp:blocks/asphalt_block_middle_turn"
-  }
-}

@@ -1,0 +1,45 @@
+#main {
+    height: 80%;
+    width: 40%;
+    left: 25%;
+    right: 25%;
+    border-radius: 10px;
+}
+
+#proprio {
+    width: 90%;
+    left: 5%;
+    right:5%;
+    top: 30%;
+    border: none;
+}
+
+#rank {
+    width: 90%;
+    left: 5%;
+    right:5%;
+    top: 45%;
+    border: none;
+}
+
+#intern {
+    width: 90%;
+    left: 5%;
+    right:5%;
+    top: 55%;
+    height: 5%;
+    border: none;
+    background-color: none;
+}
+
+#val {
+    width: 20%;
+    left: 40%;
+    right:40%;
+    top: 60%;
+    height: 10%;
+    border: none;
+    background-color: none;
+}
+
+

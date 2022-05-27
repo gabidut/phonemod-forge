@@ -1,0 +1,17 @@
+{
+  "variants":
+  {
+    "facing=north": { "model": "zoneecho:cardwriter" },
+    "facing=east":  { "model": "zoneecho:cardwriter", "y": 90 },
+    "facing=south": { "model": "zoneecho:cardwriter", "y": 180 },
+    "facing=west":  { "model": "zoneecho:cardwriter", "y": 270 },
+    "normal":
+    {
+      "model": "zoneecho:cardwriter"
+    },
+    "inventory":
+    {
+      "model": "zoneecho:cardwriter"
+    }
+  }
+}

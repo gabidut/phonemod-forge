@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "variants":
+  {
+    "facing=north,powered=true":  { "model": "zoneecho:door/door_closed", "y": 270 },
+    "facing=north,powered=false": { "model": "zoneecho:door/door_closed", "y": 180 },
+
+    "facing=east,powered=true":  { "model": "zoneecho:door/door_closed", "y": 90 },
+    "facing=east,powered=false": { "model": "zoneecho:door/door_closed", "y": 270 },
+
+    "facing=south,powered=true":  { "model": "zoneecho:door/door_closed", "y": 270 },
+    "facing=south,powered=false": { "model": "zoneecho:door/door_closed", "y": 0 },
+
+    "facing=west,powered=true":  { "model": "zoneecho:door/door_closed", "y": 270 },
+    "facing=west,powered=false": { "model": "zoneecho:door/door_closed", "y": 90 },
+    "normal":
+    {
+      "model": "zoneecho:door/door_closed"
+    },
+    "inventory":
+    {
+      "model": "zoneecho:door/door_closed"
+    }
+  }
+}
+

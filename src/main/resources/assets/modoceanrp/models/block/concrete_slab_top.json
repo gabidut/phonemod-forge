@@ -1,9 +1,0 @@
-{
-  "parent": "block/upper_slab",
-  "textures":
-  {
-    "bottom": "modoceanrp:blocks/concrete",
-    "top": "modoceanrp:blocks/concrete",
-    "side": "modoceanrp:blocks/concrete"
-  }
-}

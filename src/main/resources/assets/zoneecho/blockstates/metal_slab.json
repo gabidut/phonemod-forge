@@ -1,0 +1,12 @@
+{
+  "variants":
+  {
+    "half=bottom,variant=default": {"model": "modoceanrp:concrete_slab"},
+    "half=top,variant=default": {"model": "modoceanrp:concrete_slab"}
+
+  },
+  "inventory":
+  {
+    "model": "modoceanrp:concrete_slab"
+  }
+}

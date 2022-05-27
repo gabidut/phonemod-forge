@@ -1,9 +1,0 @@
-{
-  "variants":
-  {
-    "variant=default": { "model": "modoceanrp:asphalt_block_slab_double" }
-  }, "inventory":
-  {
-    "model": "modoceanrp:asphalt_block"
-  }
-}

@@ -1,0 +1,6 @@
+# Made in Blockbench 4.1.3
+newmtl m_0
+map_Kd zoneecho:blocks/lime_glazed_terracotta
+newmtl m_1
+map_Kd blocks/bedrock
+newmtl none

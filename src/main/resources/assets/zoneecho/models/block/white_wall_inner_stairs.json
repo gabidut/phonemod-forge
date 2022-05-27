@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "zoneecho:blocks/white_wall",
+    "top": "zoneecho:blocks/white_wall",
+    "side": "zoneecho:blocks/white_wall"
+  }
+}
+

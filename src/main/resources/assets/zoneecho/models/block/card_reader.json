@@ -1,0 +1,14 @@
+{
+
+	"parent": "forge:block/default",
+	"loader": "forge:obj",
+	"model": "zoneecho:models/block/cardreader/idle/cardreade.obj",
+	"textures":
+	{
+
+		"particle": "zoneecho:block/texturecardidle"
+
+	},
+	"flip-v": true
+
+}
