@@ -1,19 +1,19 @@
-package fr.zoneecho.mod;
+package fr.gabidut76.mods.phonemod;
 
 
 import fr.aym.acsguis.api.ACsGuiApi;
 import fr.dynamx.api.contentpack.DynamXAddon;
+import fr.gabidut76.mods.phonemod.objects.blocks.BlockDynxPhone;
+import fr.gabidut76.mods.phonemod.objects.tiles.TilePhone;
+import fr.gabidut76.mods.phonemod.proxy.CommonProxy;
+import fr.gabidut76.mods.phonemod.tabs.MainTab;
+import fr.gabidut76.mods.phonemod.util.Ref;
+import fr.gabidut76.mods.phonemod.util.command.CommandPhoneMod;
+import fr.gabidut76.mods.phonemod.util.network.PacketOpenConfig;
 import fr.nathanael2611.modularvoicechat.api.VoiceDispatchEvent;
 import fr.nathanael2611.simpledatabasemanager.core.Database;
 import fr.nathanael2611.simpledatabasemanager.core.Databases;
 import fr.nathanael2611.simpledatabasemanager.core.SyncedDatabases;
-import fr.zoneecho.mod.objects.blocks.BlockDynxPhone;
-import fr.zoneecho.mod.objects.tiles.TilePhone;
-import fr.zoneecho.mod.proxy.CommonProxy;
-import fr.zoneecho.mod.tabs.MainTab;
-import fr.zoneecho.mod.util.Ref;
-import fr.zoneecho.mod.util.command.CommandPhoneMod;
-import fr.zoneecho.mod.util.network.PacketOpenConfig;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.util.ResourceLocation;

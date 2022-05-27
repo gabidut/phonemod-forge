@@ -1,4 +1,4 @@
-package fr.zoneecho.mod.util.gui;
+package fr.gabidut76.mods.phonemod.util.gui;
 
 import fr.aym.acsguis.component.button.GuiButton;
 import fr.aym.acsguis.component.layout.GuiScaler;

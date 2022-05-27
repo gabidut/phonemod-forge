@@ -1,6 +1,6 @@
-package fr.zoneecho.mod.tabs;
+package fr.gabidut76.mods.phonemod.tabs;
 
-import fr.zoneecho.mod.PhoneMod;
+import fr.gabidut76.mods.phonemod.PhoneMod;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 

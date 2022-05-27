@@ -1,4 +1,4 @@
-package fr.zoneecho.mod.objects.tiles;
+package fr.gabidut76.mods.phonemod.objects.tiles;
 
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.nbt.NBTTagCompound;

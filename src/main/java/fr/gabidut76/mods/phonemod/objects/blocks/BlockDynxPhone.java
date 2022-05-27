@@ -1,8 +1,8 @@
-package fr.zoneecho.mod.objects.blocks;
+package fr.gabidut76.mods.phonemod.objects.blocks;
 
 import fr.dynamx.common.blocks.DynamXBlock;
-import fr.zoneecho.mod.PhoneMod;
-import fr.zoneecho.mod.objects.tiles.TilePhone;
+import fr.gabidut76.mods.phonemod.PhoneMod;
+import fr.gabidut76.mods.phonemod.objects.tiles.TilePhone;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;

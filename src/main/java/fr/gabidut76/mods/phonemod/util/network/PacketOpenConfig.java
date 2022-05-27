@@ -1,7 +1,7 @@
-package fr.zoneecho.mod.util.network;
+package fr.gabidut76.mods.phonemod.util.network;
 
 import fr.aym.acsguis.api.ACsGuiApi;
-import fr.zoneecho.mod.util.gui.GuiBroadcast;
+import fr.gabidut76.mods.phonemod.util.gui.GuiBroadcast;
 import io.netty.buffer.ByteBuf;
 import net.minecraftforge.fml.common.network.ByteBufUtils;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
