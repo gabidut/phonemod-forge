@@ -1,6 +1,7 @@
 package fr.gabidut76.mods.phonemod.util.network;
 
 import fr.aym.acsguis.api.ACsGuiApi;
+import fr.gabidut76.mods.phonemod.util.gui.GuiConfig;
 import fr.gabidut76.mods.phonemod.util.gui.GuiMain;
 import io.netty.buffer.ByteBuf;
 import net.minecraftforge.fml.common.network.ByteBufUtils;
@@ -35,7 +36,7 @@ public class PacketMainMenu implements IMessage {
         @Override
         @SideOnly(Side.CLIENT)
         public IMessage onMessage(PacketMainMenu message, MessageContext ctx) {
-            ACsGuiApi.asyncLoadThenShowGui("cardwriter", () -> new GuiMain(message.phoneNumber));
+            ACsGuiApi.asyncLoadThenShowGui("cardwriter", () -> new GuiConfig());
             return null;
         }
     }
