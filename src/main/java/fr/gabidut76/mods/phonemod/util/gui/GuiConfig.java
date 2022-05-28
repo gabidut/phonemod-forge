@@ -28,7 +28,6 @@ public class GuiConfig extends GuiFrame {
 
         GuiTextArea name;
         name = (GuiTextArea) new GuiTextArea(0, 0, 0, 0).setMaxTextLength(20).setHintText("Nom du téléphone").setCssId("name").setCssClass("name");
-        name.setRegexPattern(Pattern.compile(".*[A-Z].*"));
 
         GuiPanel button = new GuiPanel();
         button.setCssClass("valid");
@@ -39,11 +38,14 @@ public class GuiConfig extends GuiFrame {
         //error.add(new GuiLabel(0,0,0,0, "").setCssId("sold"));
 
         button.addClickListener((x, y, bu) -> {
-            if(name.getText().isEmpty() && number.getText().isEmpty()){
+            if(name.getText().isEmpty() || number.getText().isEmpty()){
                 error.add(new GuiLabel(0, 0, 0, 0, "Les champs doivent être remplis.").setCssId("error"));
                 home.add(error);
                 error.setVisible(true);
             } else {
+                if(error.isVisible()){
+                error.setVisible(false);
+            }
 
             }
         });

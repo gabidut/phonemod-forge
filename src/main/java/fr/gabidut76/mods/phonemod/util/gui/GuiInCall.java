@@ -4,25 +4,18 @@ import fr.aym.acsguis.component.layout.GuiScaler;
 import fr.aym.acsguis.component.panel.GuiFrame;
 import fr.aym.acsguis.component.panel.GuiPanel;
 import fr.aym.acsguis.component.textarea.GuiLabel;
-import fr.aym.acsguis.component.textarea.GuiTextArea;
 import net.minecraft.util.ResourceLocation;
 
 import java.util.Collections;
 import java.util.List;
-import java.util.regex.Pattern;
 
-public class GuiCall extends GuiFrame {
+public class GuiInCall extends GuiFrame {
 
-
-    public GuiCall(int phoneNumber, String name) {
+    public GuiInCall(int phoneNumber, String name) {
         super(new GuiScaler.Identity());
 
         GuiPanel home = new GuiPanel();
         home.setCssClass("home");
-
-        GuiPanel accept = new GuiPanel();
-        accept.setCssClass("accept");
-        accept.setCssId("accept");
 
         GuiPanel refuse = new GuiPanel();
         refuse.setCssClass("refuse");
@@ -35,25 +28,19 @@ public class GuiCall extends GuiFrame {
         GuiPanel number = new GuiPanel();
         number.setCssClass("number");
         number.add(new GuiLabel(0, 0, 0, 0, Integer.toString(phoneNumber)).setCssId("number"));
+        home.add(number);
 
         GuiPanel author = new GuiPanel();
-        author.setCssClass("author");
-        author.add(new GuiLabel(0, 0, 0, 0, "E").setCssId("author"));
+        author.setCssClass("name");
+        author.add(new GuiLabel(0, 0, 0, 0, name).setCssId("name"));
+        home.add(author);
 
-//        GuiPanel compose = new GuiPanel();
-//        compose.setCssClass("number");
-//        compose.add(new GuiLabel(0,0,0,0, composed_number).setCssId("number"));
-
-        home.add(accept);
+        home.add(number);
         home.add(author);
         home.add(refuse);
         home.add(screen);
-        home.add(number);
         add(home);
 
-        accept.addClickListener((x, y, bu) -> {
-            // Code.
-        });
 
         refuse.addClickListener((x, y, bu) -> {
 
@@ -62,6 +49,7 @@ public class GuiCall extends GuiFrame {
 
     @Override
     public List<ResourceLocation> getCssStyles() {
-        return Collections.singletonList(new ResourceLocation("dynamxmod","css/call.css"));
+        return Collections.singletonList(new ResourceLocation("dynamxmod","css/incall.css"));
     }
 }
+

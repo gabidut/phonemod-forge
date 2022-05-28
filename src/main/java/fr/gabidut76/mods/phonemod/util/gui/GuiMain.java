@@ -3,6 +3,7 @@ package fr.gabidut76.mods.phonemod.util.gui;
 import fr.aym.acsguis.component.layout.GuiScaler;
 import fr.aym.acsguis.component.panel.GuiFrame;
 import fr.aym.acsguis.component.panel.GuiPanel;
+import fr.aym.acsguis.component.textarea.GuiLabel;
 import fr.aym.acsguis.component.textarea.GuiTextArea;
 import net.minecraft.util.ResourceLocation;
 
@@ -84,10 +85,15 @@ public class GuiMain extends GuiFrame {
         compose = (GuiTextArea) new GuiTextArea(0, 0, 0, 0).setMaxTextLength(10).setHintText("0").setCssId("number").setCssClass("number");
         compose.setRegexPattern(Pattern.compile(".*[0-9].*"));
 
+        GuiPanel info = new GuiPanel();
+        info.setCssClass("info");
+        info.add(new GuiLabel(0,0,0,0, "Le numéro de téléphone du poste est " + phoneNumber).setCssId("info"));
+
 //        GuiPanel compose = new GuiPanel();
 //        compose.setCssClass("number");
 //        compose.add(new GuiLabel(0,0,0,0, composed_number).setCssId("number"));
 
+        home.add(info);
         home.add(one);
         home.add(two);
         home.add(three);

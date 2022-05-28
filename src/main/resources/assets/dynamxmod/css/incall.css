@@ -1,0 +1,43 @@
+.home{
+    width: 40%;
+    height: 51%;
+    left: 30%;
+    top: 25%;
+    background: #3D3D3D;
+    border-radius: 5px;
+}
+.screen{
+    width: 66%;
+    height: 45%;
+    left: 17%;
+    top: 7%;
+    background: #4D4D4D;
+    border-radius: 5px;
+}
+.refuse {
+    background-image: url("dynamxmod:textures/main/refuse.png");
+    width: 13%;
+    height: 18%;
+    left: 43%;
+    top: 65%;
+}
+.number{
+    width: 61%;
+    height: 10%;
+    left: 19%;
+    top: 15%;
+    font-size: 64px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #4D4D4D;
+}
+.name{
+    width: 61%;
+    height: 10%;
+    left: 19%;
+    top: 33%;
+    font-size: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #4D4D4D;
+}
