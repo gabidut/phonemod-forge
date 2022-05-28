@@ -23,6 +23,7 @@ public class ClientProxy extends CommonProxy
     {
         ACsGuiApi.registerStyleSheetToPreload(new ResourceLocation("dynamxmod", "css/main.css"));
         ACsGuiApi.registerStyleSheetToPreload(new ResourceLocation("dynamxmod", "css/config.css"));
+        ACsGuiApi.registerStyleSheetToPreload(new ResourceLocation("dynamxmod", "css/call.css"));
         super.preInit();
     }
 }

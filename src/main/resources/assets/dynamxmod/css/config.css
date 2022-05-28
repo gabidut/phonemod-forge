@@ -1,0 +1,48 @@
+.home {
+    width: 60%;
+    height: 80%;
+    left: 20%;
+    top: 7%;
+    background: #3D3D3D;
+    border-radius: 5px;
+}
+.screen {
+    background-image: url("dynamxmod:textures/config/screen.png");
+    width: 62%;
+    height: 19%;
+    left: 19%;
+    top: 5%;
+}
+.number {
+    width: 60%;
+    height: 11%;
+    left: 20%;
+    top: 46%;
+    background: #4D4D4D;
+    border-radius: 5px;
+}
+.name {
+    width: 60%;
+    height: 11%;
+    left: 20%;
+    top: 64%;
+    background: #4D4D4D;
+    border-radius: 5px;
+}
+.valid{
+    background-image: url("dynamxmod:textures/config/valid.png");
+    width: 60%;
+    height: 11%;
+    left: 20%;
+    top: 81%;
+    border-radius: 5px;
+}
+.error {
+    width: 65%;
+    height: 5%;
+    left: 1%;
+    top: 94%;
+    font-size: 32px;
+    text-align: center;
+    color: #FD4B4B;
+}
