@@ -1,0 +1,1581 @@
+[21:39:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[21:39:30] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[21:39:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[21:39:30] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[21:39:30] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[21:39:30] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_201, running on Windows 10:amd64:10.0, installed at D:\Program Files\Java\jdk1.8.0_201\jre
+[21:39:30] [main/DEBUG] [FML]: Java classpath at launch is:
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\deploy.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\access-bridge-64.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\cldrdata.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\dnsns.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jaccess.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jfxrt.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\localedata.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\nashorn.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunec.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunjce_provider.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunmscapi.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunpkcs11.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\zipfs.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\javaws.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\jfxswt.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\management-agent.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\plugin.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\Desktop\phoneMod\build\classes\java\main
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\Desktop\phoneMod\libs\ModularVoiceChat-1.1.1.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\Desktop\phoneMod\libs\simpledatabasemanager-1.0.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\forge_gradle\deobf_dependencies\fr\dynamx\DynamX\3.3.1-rd3_mapped_snapshot_20171003-1.12\DynamX-3.3.1-rd3_mapped_snapshot_20171003-1.12.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\forge_gradle\deobf_dependencies\fr\aym\acsguis\ACsGuis\1.2.1-3_mapped_snapshot_20171003-1.12\ACsGuis-1.2.1-3_mapped_snapshot_20171003-1.12.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2860_mapped_snapshot_20171003-1.12\forge-1.12.2-14.23.5.2860_mapped_snapshot_20171003-1.12-recomp.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\forge_gradle\minecraft_repo\versions\1.12.2\client-extra.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.1\f7be08ec23c21485b9b5a1cf1654c2ec8c58168d\jsr305-3.0.1.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.0.13\c18446ec4d5814f447d7a79b314ba9a27cc8dbc8\mergetool-1.0.13-forge.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\forge_gradle\maven_downloader\de\oceanlabs\mcp\mcp_snapshot\20171003-1.12\mcp_snapshot-20171003-1.12.zip
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.2\3354e11e2b34215f06dab629ab88e06aca477c19\asm-debug-all-5.2.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.jline\jline\3.5.1\51800e9d7a13608894a5a28eed0f5c7fa2f300fb\jline-3.5.1.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2_mc\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2_mc.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2_mc\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2_mc.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-xml_2.11\1.0.2\7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0\scala-xml_2.11-1.0.2.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.5.2\79846ba34cbd89e2422d74d53752f993dcc2ccaf\vecmath-1.5.2.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.15.0\ba55c13d7ac2fd44df9cc8074455719a33f375b9\log4j-core-2.15.0.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.15.0\4a5aa7e55a29391c6f66e0b259d5189aa11e45d0\log4j-api-2.15.0.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.minecraftforge\legacydev\0.2.3.1\f2cd4a8c9f09faf1c1e4a9a4c65df36e634f95db\legacydev-0.2.3.1-fatjar.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\1.3.9\eb8bb7b66fa0e2152b1b40b3856e82f7619439ee\patchy-1.3.9.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.4.0\cb208278274bf12ebdb56c61bd7407e6f774d65a\jna-4.4.0.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\platform\3.4.0\e3f70017be8100d3d6923f50b3d2ee17714e9c13\platform-3.4.0.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.1.9.Final\97860965d6a0a6b98e7f569f3f966727b8db75\netty-all-4.1.9.Final.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\21.0\3a3d111be1be1b745edfa7d91678a12d7ed38709\guava-21.0.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.5\6c6c702c89bfff3cd9e80b04d668c5e190d588c6\commons-lang3-3.5.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.25\9834cdf236c22e84b946bba989e2f94ef5897c3c\authlib-1.5.25.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.10.22\bd0dccebdf3744c75f1ca20063f16e8f7d5e663f\realms-1.10.22.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\7.1.0\9835253257524c1be7ab50c057aa2d418fb72082\fastutil-7.1.0.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.4-nightly-20150209\697517568c68e78ae0b4544145af031c81082dfe\lwjgl-2.9.4-nightly-20150209.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.4-nightly-20150209\d51a7c040a721d13efdfbd34f8b257b2df882ad0\lwjgl_util-2.9.4-nightly-20150209.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\b04f3ee8f5e43fa3b162981b50bb72fe1acabb33\lwjgl-platform-2.9.4-nightly-20150209.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.10.3\48fd510879dff266c3815947de66e3d4809f8668\text2speech-1.10.3.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.10.3\84a4b856389cc4f485275b1f63497a95a857a443\text2speech-1.10.3-natives-windows.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.1.0\60eecb6f15abdb1c653ad80abaac6fe188b3feaa\plexus-utils-3.1.0.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar
+[21:39:30] [main/DEBUG] [FML]:     C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\lib\idea_rt.jar
+[21:39:30] [main/DEBUG] [FML]: Java library path at launch is:
+[21:39:30] [main/DEBUG] [FML]:     D:\Program Files\Java\jdk1.8.0_201\bin
+[21:39:30] [main/DEBUG] [FML]:     C:\Windows\Sun\Java\bin
+[21:39:30] [main/DEBUG] [FML]:     C:\Windows\system32
+[21:39:30] [main/DEBUG] [FML]:     C:\Windows
+[21:39:30] [main/DEBUG] [FML]:     C:\Program Files\Zulu\zulu-8\bin\
+[21:39:30] [main/DEBUG] [FML]:     C:\Windows\system32
+[21:39:30] [main/DEBUG] [FML]:     C:\Windows
+[21:39:30] [main/DEBUG] [FML]:     C:\Windows\System32\Wbem
+[21:39:30] [main/DEBUG] [FML]:     C:\Windows\System32\WindowsPowerShell\v1.0\
+[21:39:30] [main/DEBUG] [FML]:     C:\Windows\System32\OpenSSH\
+[21:39:30] [main/DEBUG] [FML]:     C:\Program Files\nodejs\
+[21:39:30] [main/DEBUG] [FML]:     C:\Program Files\Git\cmd
+[21:39:30] [main/DEBUG] [FML]:     C:\Program Files\Go\bin
+[21:39:30] [main/DEBUG] [FML]:     C:\Program Files\Java\jre1.8.0_311\bin
+[21:39:30] [main/DEBUG] [FML]:     C:\MinGW\bin\gcc.exe
+[21:39:30] [main/DEBUG] [FML]:     C:\MinGW\bin\g++.exe
+[21:39:30] [main/DEBUG] [FML]:     C:\MinGW\bin
+[21:39:30] [main/DEBUG] [FML]:     C:\Program Files (x86)\dotnet\
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\AppData\Local\Microsoft\WindowsApps
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\AppData\Local\Programs\Microsoft VS Code\bin
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\AppData\Roaming\npm
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\AppData\Local\GitHubDesktop\bin
+[21:39:30] [main/DEBUG] [FML]:     C:\Users\gabid\go\bin
+[21:39:30] [main/DEBUG] [FML]:     .
+[21:39:30] [main/DEBUG] [FML]:     C:/Users/gabid/Desktop/phoneMod\build\natives
+[21:39:30] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[21:39:30] [main/ERROR] [FML]: Full: C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[21:39:30] [main/ERROR] [FML]: Trimmed: c:/users/gabid/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[21:39:30] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: .\libraries
+[21:39:30] [main/DEBUG] [FML]: Cleaning up mods folder: .\mods
+[21:39:30] [main/DEBUG] [FML]: Examining file: obfuscate-0.2.7-1.12.2.jar
+[21:39:30] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[21:39:30] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[21:39:31] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[21:39:31] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[21:39:31] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[21:39:31] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[21:39:31] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[21:39:31] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[21:39:31] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[21:39:31] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[21:39:31] [main/DEBUG] [FML]: Discovering coremods
+[21:39:31] [main/INFO] [FML]: Searching C:\Users\gabid\Desktop\phoneMod\run\.\mods for mods
+[21:39:31] [main/DEBUG] [FML]:   Adding obfuscate-0.2.7-1.12.2.jar to the mod list
+[21:39:31] [main/DEBUG] [FML]: Examining for coremod candidacy obfuscate-0.2.7-1.12.2.jar
+[21:39:31] [main/TRACE] [FML]: Adding obfuscate-0.2.7-1.12.2.jar to the list of known coremods, it will not be examined again
+[21:39:31] [main/DEBUG] [FML]: Instantiating coremod class ObfuscatePlugin
+[21:39:31] [main/DEBUG] [FML]: The coremod com.mrcrayfish.obfuscate.asm.ObfuscatePlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[21:39:31] [main/WARN] [FML]: The coremod ObfuscatePlugin (com.mrcrayfish.obfuscate.asm.ObfuscatePlugin) is not signed!
+[21:39:31] [main/DEBUG] [FML]: Enqueued coremod ObfuscatePlugin
+[21:39:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:39:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:39:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:39:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:39:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:39:31] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[21:39:31] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[21:39:31] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[21:39:31] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[21:39:31] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[21:39:31] [main/DEBUG] [FML]: Injection complete
+[21:39:31] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[21:39:31] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
+[21:39:31] [main/DEBUG] [FML]: Loading deobfuscation resource C:/Users/gabid/Desktop/phoneMod\build\createSrgToMcp\output.srg with 36076 records
+[21:39:32] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[21:39:32] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
+[21:39:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:39:32] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[21:39:32] [main/DEBUG] [FML]: Injection complete
+[21:39:32] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[21:39:32] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
+[21:39:32] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
+[21:39:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:39:32] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg
+[21:39:32] [main/DEBUG] [FML]: Validating minecraft
+[21:39:33] [main/DEBUG] [FML]: Minecraft validated, launching...
+[21:39:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:39:33] [main/DEBUG] [FML]: Injecting coremod ObfuscatePlugin \{com.mrcrayfish.obfuscate.asm.ObfuscatePlugin\} class transformers
+[21:39:33] [main/TRACE] [FML]: Registering transformer com.mrcrayfish.obfuscate.asm.ObfuscateTransformer
+[21:39:33] [main/DEBUG] [FML]: Injection complete
+[21:39:33] [main/DEBUG] [FML]: Running coremod plugin for ObfuscatePlugin \{com.mrcrayfish.obfuscate.asm.ObfuscatePlugin\}
+[21:39:33] [main/DEBUG] [FML]: Running coremod plugin ObfuscatePlugin
+[21:39:33] [main/DEBUG] [FML]: Coremod plugin class ObfuscatePlugin run successfully
+[21:39:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:39:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:39:33] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[21:39:33] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player513
+[21:39:36] [Client thread/DEBUG] [FML]: Creating vanilla freeze snapshot
+[21:39:36] [Client thread/DEBUG] [FML]: Vanilla freeze snapshot created
+[21:39:36] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[21:39:36] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[21:39:37] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - LanguageManager took 0.001s
+[21:39:37] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_201, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 705633504 bytes (672 MB) / 875560960 bytes (835 MB) up to 3795845120 bytes (3620 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+ObfuscatePlugin (obfuscate-0.2.7-1.12.2.jar)
+  com.mrcrayfish.obfuscate.asm.ObfuscateTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 511.65' Renderer: 'NVIDIA GeForce GTX 1050/PCIe/SSE2'
+[21:39:37] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[21:39:37] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[21:39:37] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[21:39:37] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[21:39:37] [Client thread/DEBUG] [FML]: File C:\Users\gabid\Desktop\phoneMod\run\config\injectedDependencies.json not found. No dependencies injected
+[21:39:37] [Client thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, com.mrcrayfish.obfuscate.Obfuscate]
+[21:39:37] [Client thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\deploy.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\access-bridge-64.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\cldrdata.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\dnsns.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jaccess.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jfxrt.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\localedata.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\nashorn.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunec.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunjce_provider.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunmscapi.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunpkcs11.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\zipfs.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\javaws.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\jfxswt.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\management-agent.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\plugin.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file D:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related directory at C:\Users\gabid\Desktop\phoneMod\build\classes\java\main, examining for mod candidates
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\Desktop\phoneMod\libs\ModularVoiceChat-1.1.1.jar, examining for mod candidates
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\Desktop\phoneMod\libs\simpledatabasemanager-1.0.jar, examining for mod candidates
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\.gradle\caches\forge_gradle\deobf_dependencies\fr\dynamx\DynamX\3.3.1-rd3_mapped_snapshot_20171003-1.12\DynamX-3.3.1-rd3_mapped_snapshot_20171003-1.12.jar, examining for mod candidates
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\.gradle\caches\forge_gradle\deobf_dependencies\fr\aym\acsguis\ACsGuis\1.2.1-3_mapped_snapshot_20171003-1.12\ACsGuis-1.2.1-3_mapped_snapshot_20171003-1.12.jar, examining for mod candidates
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2860_mapped_snapshot_20171003-1.12\forge-1.12.2-14.23.5.2860_mapped_snapshot_20171003-1.12-recomp.jar, examining for mod candidates
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\.gradle\caches\forge_gradle\minecraft_repo\versions\1.12.2\client-extra.jar, examining for mod candidates
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.1\f7be08ec23c21485b9b5a1cf1654c2ec8c58168d\jsr305-3.0.1.jar, examining for mod candidates
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.0.13\c18446ec4d5814f447d7a79b314ba9a27cc8dbc8\mergetool-1.0.13-forge.jar, examining for mod candidates
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\.gradle\caches\forge_gradle\maven_downloader\de\oceanlabs\mcp\mcp_snapshot\20171003-1.12\mcp_snapshot-20171003-1.12.zip, examining for mod candidates
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.2\3354e11e2b34215f06dab629ab88e06aca477c19\asm-debug-all-5.2.jar, examining for mod candidates
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.jline\jline\3.5.1\51800e9d7a13608894a5a28eed0f5c7fa2f300fb\jline-3.5.1.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2_mc\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2_mc.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2_mc\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2_mc.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-xml_2.11\1.0.2\7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0\scala-xml_2.11-1.0.2.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.5.2\79846ba34cbd89e2422d74d53752f993dcc2ccaf\vecmath-1.5.2.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar, examining for mod candidates
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.15.0\ba55c13d7ac2fd44df9cc8074455719a33f375b9\log4j-core-2.15.0.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.15.0\4a5aa7e55a29391c6f66e0b259d5189aa11e45d0\log4j-api-2.15.0.jar
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.minecraftforge\legacydev\0.2.3.1\f2cd4a8c9f09faf1c1e4a9a4c65df36e634f95db\legacydev-0.2.3.1-fatjar.jar, examining for mod candidates
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\1.3.9\eb8bb7b66fa0e2152b1b40b3856e82f7619439ee\patchy-1.3.9.jar, examining for mod candidates
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.4.0\cb208278274bf12ebdb56c61bd7407e6f774d65a\jna-4.4.0.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\platform\3.4.0\e3f70017be8100d3d6923f50b3d2ee17714e9c13\platform-3.4.0.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.1.9.Final\97860965d6a0a6b98e7f569f3f966727b8db75\netty-all-4.1.9.Final.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\21.0\3a3d111be1be1b745edfa7d91678a12d7ed38709\guava-21.0.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.5\6c6c702c89bfff3cd9e80b04d668c5e190d588c6\commons-lang3-3.5.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.25\9834cdf236c22e84b946bba989e2f94ef5897c3c\authlib-1.5.25.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.10.22\bd0dccebdf3744c75f1ca20063f16e8f7d5e663f\realms-1.10.22.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\7.1.0\9835253257524c1be7ab50c057aa2d418fb72082\fastutil-7.1.0.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.4-nightly-20150209\697517568c68e78ae0b4544145af031c81082dfe\lwjgl-2.9.4-nightly-20150209.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.4-nightly-20150209\d51a7c040a721d13efdfbd34f8b257b2df882ad0\lwjgl_util-2.9.4-nightly-20150209.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\b04f3ee8f5e43fa3b162981b50bb72fe1acabb33\lwjgl-platform-2.9.4-nightly-20150209.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.10.3\48fd510879dff266c3815947de66e3d4809f8668\text2speech-1.10.3.jar, examining for mod candidates
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.10.3\84a4b856389cc4f485275b1f63497a95a857a443\text2speech-1.10.3-natives-windows.jar, examining for mod candidates
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar, examining for mod candidates
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar, examining for mod candidates
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar, examining for mod candidates
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.1.0\60eecb6f15abdb1c653ad80abaac6fe188b3feaa\plexus-utils-3.1.0.jar, examining for mod candidates
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar, examining for mod candidates
+[21:39:37] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\lib\idea_rt.jar, examining for mod candidates
+[21:39:37] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\gabid\Desktop\phoneMod\run\.\mods\obfuscate-0.2.7-1.12.2.jar
+[21:39:37] [Client thread/DEBUG] [FML]: Minecraft jar mods loaded successfully
+[21:39:37] [Client thread/INFO] [FML]: Searching C:\Users\gabid\Desktop\phoneMod\run\.\mods for mods
+[21:39:37] [Client thread/DEBUG] [FML]:   Adding obfuscate-0.2.7-1.12.2.jar to the mod list
+[21:39:37] [Client thread/TRACE] [FML]: Skipping already parsed coremod or tweaker obfuscate-0.2.7-1.12.2.jar
+[21:39:37] [Client thread/DEBUG] [FML]: Examining directory main for potential mods
+[21:39:37] [Client thread/DEBUG] [FML]: Found an mcmod.info file in directory main
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/dynamxmod
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/dynamxmod/css
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/dynamxmod/models
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/dynamxmod/models/phone
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/dynamxmod/textures
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/dynamxmod/textures/config
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/dynamxmod/textures/main
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/phonemod
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/phonemod/css
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/phonemod/lang
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/phonemod/sounds
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/zoneecho
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/zoneecho/blockstates
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/zoneecho/css
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/zoneecho/lang
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/zoneecho/models
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/zoneecho/models/block
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/zoneecho/models/block/door
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/zoneecho/models/blocks
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/zoneecho/models/item
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/zoneecho/sounds
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/zoneecho/textures
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/zoneecho/textures/blocks
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/zoneecho/textures/blocks/cardreader
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/zoneecho/textures/blocks/cardreader/active
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/zoneecho/textures/blocks/cardreader/idle
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/zoneecho/textures/blocks/cardwriter
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/zoneecho/textures/blocks/door
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package assets/zoneecho/textures/items
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package fr
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package fr/gabidut76
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package fr/gabidut76/mods
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package fr/gabidut76/mods/phonemod
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package fr/gabidut76/mods/phonemod/objects
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package fr/gabidut76/mods/phonemod/objects/blocks
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package fr/gabidut76/mods/phonemod/objects/tiles
+[21:39:37] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (fr.gabidut76.mods.phonemod.PhoneMod) - loading
+[21:39:37] [Client thread/TRACE] [FML]: Parsed dependency info for phonemod: Requirements: [modularvc] After:[sdm, modularvc] Before:[dynamxmod]
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package fr/gabidut76/mods/phonemod/proxy
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package fr/gabidut76/mods/phonemod/tabs
+[21:39:37] [Client thread/TRACE] [FML]: Recursing into package fr/gabidut76/mods/phonemod/threads
+[21:39:38] [Client thread/TRACE] [FML]: Recursing into package fr/gabidut76/mods/phonemod/util
+[21:39:38] [Client thread/TRACE] [FML]: Recursing into package fr/gabidut76/mods/phonemod/util/command
+[21:39:38] [Client thread/TRACE] [FML]: Recursing into package fr/gabidut76/mods/phonemod/util/gui
+[21:39:38] [Client thread/TRACE] [FML]: Recursing into package fr/gabidut76/mods/phonemod/util/handlers
+[21:39:38] [Client thread/TRACE] [FML]: Recursing into package fr/gabidut76/mods/phonemod/util/network
+[21:39:38] [Client thread/TRACE] [FML]: Recursing into package fr/zoneecho
+[21:39:38] [Client thread/TRACE] [FML]: Recursing into package fr/zoneecho/mod
+[21:39:38] [Client thread/TRACE] [FML]: Recursing into package fr/zoneecho/mod/objects
+[21:39:38] [Client thread/TRACE] [FML]: Recursing into package fr/zoneecho/mod/objects/blocks
+[21:39:38] [Client thread/TRACE] [FML]: Recursing into package fr/zoneecho/mod/objects/tiles
+[21:39:38] [Client thread/TRACE] [FML]: Recursing into package fr/zoneecho/mod/proxy
+[21:39:38] [Client thread/TRACE] [FML]: Recursing into package fr/zoneecho/mod/tabs
+[21:39:38] [Client thread/TRACE] [FML]: Recursing into package fr/zoneecho/mod/util
+[21:39:38] [Client thread/TRACE] [FML]: Recursing into package fr/zoneecho/mod/util/command
+[21:39:38] [Client thread/TRACE] [FML]: Recursing into package fr/zoneecho/mod/util/gui
+[21:39:38] [Client thread/TRACE] [FML]: Recursing into package fr/zoneecho/mod/util/handlers
+[21:39:38] [Client thread/TRACE] [FML]: Recursing into package fr/zoneecho/mod/util/network
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file ModularVoiceChat-1.1.1.jar for potential mods
+[21:39:38] [Client thread/TRACE] [FML]: Located mcmod.info file in file ModularVoiceChat-1.1.1.jar
+[21:39:38] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (fr.nathanael2611.modularvoicechat.ModularVoiceChat) - loading
+[21:39:38] [Client thread/TRACE] [FML]: Parsed dependency info for modularvc: Requirements: [] After:[] Before:[]
+[21:39:38] [Client thread/DEBUG] [FML]: Attempting to load the file version.properties from ModularVoiceChat-1.1.1.jar to locate a version number for mod modularvc
+[21:39:38] [Client thread/WARN] [FML]: Mod modularvc is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.1
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file simpledatabasemanager-1.0.jar for potential mods
+[21:39:38] [Client thread/TRACE] [FML]: Located mcmod.info file in file simpledatabasemanager-1.0.jar
+[21:39:38] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (fr.nathanael2611.simpledatabasemanager.SimpleDatabaseManager) - loading
+[21:39:38] [Client thread/TRACE] [FML]: Parsed dependency info for sdm: Requirements: [] After:[] Before:[]
+[21:39:38] [Client thread/INFO] [FML]: Mod sdm is missing the required element 'name'. Substituting sdm
+[21:39:38] [Client thread/DEBUG] [FML]: Attempting to load the file version.properties from simpledatabasemanager-1.0.jar to locate a version number for mod sdm
+[21:39:38] [Client thread/WARN] [FML]: Mod sdm is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file DynamX-3.3.1-rd3_mapped_snapshot_20171003-1.12.jar for potential mods
+[21:39:38] [Client thread/TRACE] [FML]: Located mcmod.info file in file DynamX-3.3.1-rd3_mapped_snapshot_20171003-1.12.jar
+[21:39:38] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (fr.dynamx.common.DynamXMain) - loading
+[21:39:38] [Client thread/TRACE] [FML]: Parsed dependency info for dynamxmod: Requirements: [acslib] After:[acslib] Before:[]
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file ACsGuis-1.2.1-3_mapped_snapshot_20171003-1.12.jar for potential mods
+[21:39:38] [Client thread/TRACE] [FML]: Located mcmod.info file in file ACsGuis-1.2.1-3_mapped_snapshot_20171003-1.12.jar
+[21:39:38] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (fr.aym.acslib.ACsLib) - loading
+[21:39:38] [Client thread/TRACE] [FML]: Parsed dependency info for acslib: Requirements: [] After:[] Before:[sqript]
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file forge-1.12.2-14.23.5.2860_mapped_snapshot_20171003-1.12-recomp.jar for potential mods
+[21:39:38] [Client thread/DEBUG] [FML]: The mod container forge-1.12.2-14.23.5.2860_mapped_snapshot_20171003-1.12-recomp.jar appears to be missing an mcmod.info file
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file client-extra.jar for potential mods
+[21:39:38] [Client thread/DEBUG] [FML]: The mod container client-extra.jar appears to be missing an mcmod.info file
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file jsr305-3.0.1.jar for potential mods
+[21:39:38] [Client thread/DEBUG] [FML]: The mod container jsr305-3.0.1.jar appears to be missing an mcmod.info file
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file mergetool-1.0.13-forge.jar for potential mods
+[21:39:38] [Client thread/DEBUG] [FML]: The mod container mergetool-1.0.13-forge.jar appears to be missing an mcmod.info file
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file mcp_snapshot-20171003-1.12.zip for potential mods
+[21:39:38] [Client thread/DEBUG] [FML]: The mod container mcp_snapshot-20171003-1.12.zip appears to be missing an mcmod.info file
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file asm-debug-all-5.2.jar for potential mods
+[21:39:38] [Client thread/DEBUG] [FML]: The mod container asm-debug-all-5.2.jar appears to be missing an mcmod.info file
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file maven-artifact-3.5.3.jar for potential mods
+[21:39:38] [Client thread/DEBUG] [FML]: The mod container maven-artifact-3.5.3.jar appears to be missing an mcmod.info file
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file legacydev-0.2.3.1-fatjar.jar for potential mods
+[21:39:38] [Client thread/DEBUG] [FML]: The mod container legacydev-0.2.3.1-fatjar.jar appears to be missing an mcmod.info file
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file patchy-1.3.9.jar for potential mods
+[21:39:38] [Client thread/DEBUG] [FML]: The mod container patchy-1.3.9.jar appears to be missing an mcmod.info file
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file text2speech-1.10.3.jar for potential mods
+[21:39:38] [Client thread/DEBUG] [FML]: The mod container text2speech-1.10.3.jar appears to be missing an mcmod.info file
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file text2speech-1.10.3-natives-windows.jar for potential mods
+[21:39:38] [Client thread/DEBUG] [FML]: The mod container text2speech-1.10.3-natives-windows.jar appears to be missing an mcmod.info file
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file asm-util-6.2.jar for potential mods
+[21:39:38] [Client thread/DEBUG] [FML]: The mod container asm-util-6.2.jar appears to be missing an mcmod.info file
+[21:39:38] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) [ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+[21:39:38] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[21:39:38] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) ~[JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file asm-tree-6.2.jar for potential mods
+[21:39:38] [Client thread/DEBUG] [FML]: The mod container asm-tree-6.2.jar appears to be missing an mcmod.info file
+[21:39:38] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) [ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+[21:39:38] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[21:39:38] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) ~[JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file asm-6.2.jar for potential mods
+[21:39:38] [Client thread/DEBUG] [FML]: The mod container asm-6.2.jar appears to be missing an mcmod.info file
+[21:39:38] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) [ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+[21:39:38] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[21:39:38] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) ~[JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file plexus-utils-3.1.0.jar for potential mods
+[21:39:38] [Client thread/DEBUG] [FML]: The mod container plexus-utils-3.1.0.jar appears to be missing an mcmod.info file
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file asm-analysis-6.2.jar for potential mods
+[21:39:38] [Client thread/DEBUG] [FML]: The mod container asm-analysis-6.2.jar appears to be missing an mcmod.info file
+[21:39:38] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) [ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+[21:39:38] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\gabid\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[21:39:38] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) ~[JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[21:39:38] [Client thread/DEBUG] [FML]: Examining file idea_rt.jar for potential mods
+[21:39:38] [Client thread/DEBUG] [FML]: The mod container idea_rt.jar appears to be missing an mcmod.info file
+[21:39:39] [Client thread/INFO] [FML]: Forge Mod Loader has identified 10 mods to load
+[21:39:39] [Client thread/TRACE] [FML]: Received a system property request ''
+[21:39:39] [Client thread/TRACE] [FML]: System property request managing the state of 0 mods
+[21:39:39] [Client thread/DEBUG] [FML]: After merging, found state information for 0 mods
+[21:39:39] [Client thread/DEBUG] [FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[21:39:39] [Client thread/DEBUG] [FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[21:39:39] [Client thread/DEBUG] [FML]: Enabling mod phonemod
+[21:39:39] [Client thread/DEBUG] [FML]: Enabling mod modularvc
+[21:39:39] [Client thread/DEBUG] [FML]: Enabling mod sdm
+[21:39:39] [Client thread/DEBUG] [FML]: Enabling mod dynamxmod
+[21:39:39] [Client thread/DEBUG] [FML]: Enabling mod acslib
+[21:39:39] [Client thread/TRACE] [FML]: Verifying mod requirements are satisfied
+[21:39:39] [Client thread/TRACE] [FML]: All mod requirements are satisfied
+[21:39:39] [Client thread/TRACE] [FML]: Sorting mods into an ordered list
+[21:39:39] [Client thread/TRACE] [FML]: Mod sorting completed successfully
+[21:39:39] [Client thread/DEBUG] [FML]: Mod sorting data
+[21:39:39] [Client thread/DEBUG] [FML]: 	modularvc(ModularVoiceChat:1.1.1): ModularVoiceChat-1.1.1.jar ()
+[21:39:39] [Client thread/DEBUG] [FML]: 	sdm(sdm:1.0): simpledatabasemanager-1.0.jar ()
+[21:39:39] [Client thread/DEBUG] [FML]: 	phonemod(phonemod:V1.0): main (before: dynamxmod;after: sdm;required-after:modularvc)
+[21:39:39] [Client thread/DEBUG] [FML]: 	acslib(ACsLib:1.1.0-5): ACsGuis-1.2.1-3_mapped_snapshot_20171003-1.12.jar (before:sqript)
+[21:39:39] [Client thread/DEBUG] [FML]: 	dynamxmod(DynamX:3.3.1): DynamX-3.3.1-rd3_mapped_snapshot_20171003-1.12.jar (required-after:acslib)
+[21:39:39] [Client thread/DEBUG] [FML]: Loading @Config anotation data
+[21:39:39] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod minecraft
+[21:39:39] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod minecraft
+[21:39:39] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft took 0.002s
+[21:39:39] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mcp
+[21:39:39] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mcp
+[21:39:39] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Coder Pack took 0.000s
+[21:39:39] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod FML
+[21:39:39] [Client thread/TRACE] [FML]: Mod FML is using network checker : Invoking method checkModLists
+[21:39:39] [Client thread/TRACE] [FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[21:39:39] [Client thread/TRACE] [FML]: The mod FML accepts its own version (8.0.99.99)
+[21:39:39] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, obfuscate, phonemod, modularvc, sdm, dynamxmod, acslib] at CLIENT
+[21:39:39] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, obfuscate, phonemod, modularvc, sdm, dynamxmod, acslib] at SERVER
+[21:39:39] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 83521300 nanos
+[21:39:39] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod FML
+[21:39:39] [Client thread/DEBUG] [FML]: Bar Step: Construction - Forge Mod Loader took 0.620s
+[21:39:39] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod forge
+[21:39:39] [Client thread/DEBUG] [forge]: Loading Vanilla annotations: null
+[21:39:39] [Client thread/DEBUG] [forge]: Preloading CrashReport Classes
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$10
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$11
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$12
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$13
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$14
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$2
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$3
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$4
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$5
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$6
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$7
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$8
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$9
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$2
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$3
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$4
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$2
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$3
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$4
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$2
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$3
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$4
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderGlobal$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$2
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$3
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$4
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureAtlasSprite$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureManager$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$2
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$3
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$2
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$3
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$4
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$5
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$6
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$7
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$2
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$3
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$4
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$5
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$2
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$3
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$4
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$5
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/EntityTracker$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/player/InventoryPlayer$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$2
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/network/NetHandlerPlayServer$3
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/network/NetworkSystem$6
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$2
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$3
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$3
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$4
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$2
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$2
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$2
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$3
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$2
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$3
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$4
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$5
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/world/chunk/Chunk$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$2
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$3
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$10
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$2
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$3
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$4
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$5
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$6
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$7
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$8
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$9
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Alignment
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Column
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Row
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/ICrashCallable
+[21:39:39] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1
+[21:39:39] [Client thread/TRACE] [FML]: Mod forge is using network checker : No network checking performed
+[21:39:39] [Client thread/TRACE] [FML]: Testing mod forge to verify it accepts its own version in a remote connection
+[21:39:39] [Client thread/TRACE] [FML]: The mod forge accepts its own version (14.23.5.2860)
+[21:39:39] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into forge for type INSTANCE
+[21:39:39] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod forge
+[21:39:39] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Forge took 0.124s
+[21:39:39] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod obfuscate
+[21:39:39] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod obfuscate
+[21:39:39] [Client thread/DEBUG] [FML]: Bar Step: Construction - Obfuscate took 0.049s
+[21:39:39] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod modularvc
+[21:39:39] [Client thread/TRACE] [FML]: Mod modularvc is using network checker : Accepting version 1.1.1
+[21:39:39] [Client thread/TRACE] [FML]: Testing mod modularvc to verify it accepts its own version in a remote connection
+[21:39:39] [Client thread/TRACE] [FML]: The mod modularvc accepts its own version (1.1.1)
+[21:39:39] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into modularvc
+[21:39:39] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for modularvc
+[21:39:39] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into modularvc for type INSTANCE
+[21:39:39] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod modularvc
+[21:39:39] [Client thread/DEBUG] [FML]: Bar Step: Construction - ModularVoiceChat took 0.066s
+[21:39:39] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod sdm
+[21:39:40] [Client thread/TRACE] [FML]: Mod sdm is using network checker : Accepting version 1.0
+[21:39:40] [Client thread/TRACE] [FML]: Testing mod sdm to verify it accepts its own version in a remote connection
+[21:39:40] [Client thread/TRACE] [FML]: The mod sdm accepts its own version (1.0)
+[21:39:40] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into sdm
+[21:39:40] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for sdm
+[21:39:40] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into sdm for type INSTANCE
+[21:39:40] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod sdm
+[21:39:40] [Client thread/DEBUG] [FML]: Bar Step: Construction - sdm took 0.009s
+[21:39:40] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod phonemod
+[21:39:40] [Client thread/TRACE] [FML]: Mod phonemod is using network checker : Accepting version V1.0
+[21:39:40] [Client thread/TRACE] [FML]: Testing mod phonemod to verify it accepts its own version in a remote connection
+[21:39:40] [Client thread/TRACE] [FML]: The mod phonemod accepts its own version (V1.0)
+[21:39:40] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into phonemod
+[21:39:40] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for phonemod
+[21:39:40] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for fr.gabidut76.mods.phonemod.PhoneMod for mod phonemod
+[21:39:40] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class fr.gabidut76.mods.phonemod.PhoneMod
+[21:39:40] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for fr.gabidut76.mods.phonemod.util.handlers.SpeakHandler for mod phonemod
+[21:39:40] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class fr.gabidut76.mods.phonemod.util.handlers.SpeakHandler
+[21:39:40] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into phonemod for type INSTANCE
+[21:39:40] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod phonemod
+[21:39:40] [Client thread/DEBUG] [FML]: Bar Step: Construction - phonemod took 0.084s
+[21:39:40] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod acslib
+[21:39:40] [Client thread/TRACE] [FML]: Mod acslib is using network checker : Accepting version 1.1.0-5
+[21:39:40] [Client thread/TRACE] [FML]: Testing mod acslib to verify it accepts its own version in a remote connection
+[21:39:40] [Client thread/TRACE] [FML]: The mod acslib accepts its own version (1.1.0-5)
+[21:39:40] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into acslib
+[21:39:40] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for acslib
+[21:39:40] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into acslib for type INSTANCE
+[21:39:40] [Client thread/DEBUG] [ACsLib]: Found service candidate MPS in mod DynamX-3.3.1-rd3_mapped_snapshot_20171003-1.12.jar. In version 1.2.3
+[21:39:40] [Client thread/DEBUG] [ACsLib]: Found service candidate ThrLoad in mod DynamX-3.3.1-rd3_mapped_snapshot_20171003-1.12.jar. In version 2.0.0
+[21:39:40] [Client thread/DEBUG] [ACsLib]: Found service candidate dnx_stats in mod DynamX-3.3.1-rd3_mapped_snapshot_20171003-1.12.jar. In version 1.0.0
+[21:39:40] [Client thread/DEBUG] [ACsLib]: Found service candidate errtrack in mod ACsGuis-1.2.1-3_mapped_snapshot_20171003-1.12.jar. In version 1.0.0
+[21:39:40] [Client thread/DEBUG] [ACsLib]: Found service candidate ThrLoad in mod ACsGuis-1.2.1-3_mapped_snapshot_20171003-1.12.jar. In version 1.0.0
+[21:39:40] [Client thread/INFO] [ACsLib]: Service ThrLoad is already registered, ignoring version 1.0.0 and keeping the newer 2.0.0
+[21:39:40] [Client thread/DEBUG] [ACsLib]: Found service candidate acsguis in mod ACsGuis-1.2.1-3_mapped_snapshot_20171003-1.12.jar. In version 1.2.1
+[21:39:40] [Client thread/INFO] [ACsLib]: Registered class fr.aym.acslib.impl.services.error_tracking.ACsLibErrorTracker service V.1.0.0
+[21:39:40] [Client thread/INFO] [ACsLib]: Registered class fr.aym.mps.ModProtectionSystem service V.1.2.3
+[21:39:40] [Client thread/INFO] [ACsLib]: Registered and loading class fr.aym.acsguis.api.ACsGuiApi service V.1.2.1
+[21:39:40] [Client thread/INFO] [ACsGuis]: Initializing ACsGuis API by Aym', version 1.2.1
+[21:39:40] [Client thread/INFO] [ACsLib]: Registered class fr.aym.acslib.services.impl.thrload.DynamXThreadedModLoader service V.2.0.0
+[21:39:40] [Client thread/INFO] [ACsLib]: Registered class fr.aym.acslib.services.impl.stats.StatsBotService service V.1.0.0
+[21:39:40] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod acslib
+[21:39:40] [Client thread/DEBUG] [FML]: Bar Step: Construction - ACsLib took 0.230s
+[21:39:40] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod dynamxmod
+[21:39:40] [Client thread/TRACE] [FML]: Mod dynamxmod is using network checker : Invoking method checkRemote
+[21:39:40] [Client thread/TRACE] [FML]: Testing mod dynamxmod to verify it accepts its own version in a remote connection
+[21:39:40] [Client thread/TRACE] [FML]: The mod dynamxmod accepts its own version (3.3.1)
+[21:39:40] [Client thread/INFO] [DynamX]: Connecting to {} on CLIENT
+[21:39:40] [Client thread/INFO] [DynamX]: Connecting to {} on SERVER
+[21:39:40] [Client thread/DEBUG] [DynamX]: Registered sync var fr.dynamx.common.network.sync.vars.PosSynchronizedVariable@41f2320f with name dynamxmod:pos
+[21:39:40] [Client thread/DEBUG] [DynamX]: Registered sync var fr.dynamx.common.network.sync.vars.VehicleSynchronizedVariables$Visuals@1de306c9 with name dynamxmod:visuals
+[21:39:40] [Client thread/DEBUG] [DynamX]: Registered sync var fr.dynamx.common.network.sync.vars.VehicleSynchronizedVariables$Engine@2540ad71 with name dynamxmod:engine
+[21:39:40] [Client thread/DEBUG] [DynamX]: Registered sync var fr.dynamx.common.network.sync.vars.VehicleSynchronizedVariables$WheelVisuals@55e85ec8 with name dynamxmod:wvisuals
+[21:39:40] [Client thread/DEBUG] [DynamX]: Registered sync var fr.dynamx.common.network.sync.vars.VehicleSynchronizedVariables$WheelPhysics@300f120d with name dynamxmod:wphysics
+[21:39:40] [Client thread/DEBUG] [DynamX]: Registered sync var fr.dynamx.common.network.sync.vars.VehicleSynchronizedVariables$Controls@12a57194 with name dynamxmod:controls
+[21:39:40] [Client thread/DEBUG] [DynamX]: Registered sync var fr.dynamx.common.network.sync.vars.MovableSynchronizedVariable@bc35e84 with name dynamxmod:movable
+[21:39:40] [Client thread/DEBUG] [DynamX]: Registered sync var fr.dynamx.common.network.sync.vars.VehicleSynchronizedVariables$DoorsStatus@32558a32 with name dynamxmod:doorsstatus
+[21:39:40] [Client thread/DEBUG] [DynamX]: Registered sync var fr.dynamx.common.network.sync.vars.AttachedDoorsSynchronizedVariable@7e667bfb with name dynamxmod:attach/doors
+[21:39:40] [Client thread/DEBUG] [DynamX]: Registered sync var fr.dynamx.common.network.sync.vars.RagdollPartsSynchronizedVariable@5508c719 with name dynamxmod:attach/ragdoll
+[21:39:40] [Client thread/INFO] [DynamX]: Sorting SynchronizedVariables registry ids...
+[21:39:40] [Client thread/DEBUG] [DynamX]: Fixing SynchronizedVariables registry ids...
+[21:39:40] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into dynamxmod
+[21:39:40] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - B3DLoader took 0.000s
+[21:39:40] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - OBJLoader took 0.000s
+[21:39:40] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - ModelFluid$FluidLoader took 0.000s
+[21:39:40] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - ItemLayerModel$Loader took 0.000s
+[21:39:40] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - MultiLayerModel$Loader took 0.000s
+[21:39:40] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - ModelDynBucket$LoaderDynBucket took 0.000s
+[21:39:40] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - ObjItemModelLoader took 0.000s
+[21:39:40] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for dynamxmod
+[21:39:40] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for fr.dynamx.common.slopes.SlopePreviewer for mod dynamxmod
+[21:39:40] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class fr.dynamx.common.slopes.SlopePreviewer
+[21:39:40] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for fr.dynamx.common.items.DynamXItemRegistry for mod dynamxmod
+[21:39:40] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class fr.dynamx.common.items.DynamXItemRegistry
+[21:39:40] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for fr.dynamx.utils.debug.ClientDebugSystem for mod dynamxmod
+[21:39:40] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class fr.dynamx.utils.debug.ClientDebugSystem
+[21:39:40] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for fr.dynamx.common.handlers.CommonEventHandler$RegisterObjects for mod dynamxmod
+[21:39:40] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class fr.dynamx.common.handlers.CommonEventHandler$RegisterObjects
+[21:39:40] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for fr.dynamx.server.command.DynamXCommands for mod dynamxmod
+[21:39:40] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class fr.dynamx.server.command.DynamXCommands
+[21:39:40] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into dynamxmod for type INSTANCE
+[21:39:40] [Client thread/INFO] [DynamX]: DynamX version 3.3.1 (pack loader version 1.0.1) is running, by Yanis and Aym'
+[21:39:40] [Client thread/INFO] [STDOUT]: [fr.dynamx.common.DynamXMain:construction:67]: Loading is fr.aym.acslib.services.impl.thrload.DynamXThreadedModLoader@5db9952b
+[21:39:40] [Client thread/DEBUG] [DynamX]: Found addon candidate phonemod of mod phonemod
+[21:39:40] [Client thread/INFO] [DynamX]: Loaded 0 DynamX resource packs
+[21:39:40] [Client thread/INFO] [STDOUT]: [fr.gabidut76.mods.phonemod.PhoneMod:init:76]: Init DynamXAddon.
+[21:39:40] [DnxLoaderThread-2/INFO] [MPS]: Loading DynamXEA
+[21:39:40] [DnxLoaderThread-1/DEBUG] [ACsLib]: [ThrLoad] Finished ThreadedLoadingTask{id=0, name='statsbot'} in 3 ms during fr.aym.acslib.api.services.ThreadedLoadingService$ModLoadingSteps@79c13674
+[21:39:40] [DnxLoaderThread-2/DEBUG] [FML]: Bar Step: MPS setup : DynamXEA - SSL took 0.036s
+[21:39:41] [Client thread/INFO] [DynamX]: Loaded addons are [phonemod:phonemod:V1.0]
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Finished: Loading DynamX addons - Initialize addons took 0.273s
+[21:39:41] [Client thread/DEBUG] [ACsLib]: [ThrLoad] Transition: fr.aym.acslib.api.services.ThreadedLoadingService$ModLoadingSteps@610f3f1b
+[21:39:41] [Client thread/DEBUG] [ACsLib]: [ThrLoad] Waiting on ThreadedLoadingTask{id=1, name='certs_mps'}
+[21:39:41] [DnxLoaderThread-2/DEBUG] [FML]: Bar Step: MPS setup : DynamXEA - Session start took 0.490s
+[21:39:41] [DnxLoaderThread-2/INFO] [STDOUT]: [fr.dynamx.utils.DynamXMpsConfig:checkIntegrity:37]: Vars are 35712 32671535 26778
+[21:39:41] [DnxLoaderThread-2/INFO] [STDOUT]: [fr.dynamx.utils.DynamXMpsConfig:checkIntegrity:38]: Tab is [-54, 1, 109, 110, 83, 111, 23, 85, 97, 102, 47, 76, 0, 100, 99, 97, 121, 115, 101, 111, 116, 82, 73, 110, 47, 77, 101, 97, 31, 115, 82, 99, 110, 102, 108, 114, 111, 83, 114, 1, 97, 47, 69, 105, 7, 114, 118, 114, 101, 1, 105, 114, 1, 102, 108, 114, 111, 83, 97, 76, 17, 114, 24, 47, 99, 16, 47, 1, 1, 83, 0, 71, 66, 14, 78, 106, 83, 108, 1, 97, 76, 106, 84, 108, 101, 104, 47, 1, 116, 97, 116, 1, 101, 97, 118, 116, 47, 76, 47, 1, 97, 105, 104, 1, 116, 97, 116, 97, 115, 21, 101, 110, 116, 105, 97, 101, 108, 59, 116, 106, 77, 110, 114, 99, 112, 59, 1, 108, 114, 115, 76, 47, 101, 110, 110, 15, 111, 110, 101, 47, 76, 85, 109, 67, 114, 114, 105, 97, 68, 6, 40, 116, 34, 114, 104, 97, 11, 101, 0, 118, 59, 103, 100, 77, 97, 97, 0, 10, 9, 9, 116, 40, 110, 97, 10, 116, 116, 97, 99, 100, 56, 97, 116, 51, 110, 103, 97, 102, 108, 103, 86, 106, 67, 97, 101, 47, 110, 108, 116, 0, 117, 106, 108, 97, 7, 2, 49, 114, 109, 118, 97, 105, 0, 97, 76, 47, 97, 116, 118, 97, 47, 101, 59, 124, 126, 115, 0, 0, 66, 4, 114, 105, 112, 111, 114, 101, 97, 1, 117, 97, 97, 105, 47, 116, 101, 1, 108, 103, 101, 0, 0, 106, 82, 118, 116, 1, 101, 1, 108, 103, 110, 76, 85, 105, 114, 0, 0, 66, 110, 7, 86, -97, 18, 103, 0, 97, 76, 106, 112, 1, 106, 97, 76, 7, 47, 112, 8, 0, 108, 103, 0, 0, 7, 68, 110, 117, 97, 114, 41, 103, 0, 0, 111, 40, 103, 101, 0, 108, 102, 47, 110, 10, 98, 40, 108, 103, 0, 1, 108, 103, 116, 118, 114, 10, 0, 115, 47, 99, 10, 9, 47, 111, 111, -46, 76, 101, 108, 101, -45, 47, 110, 0, 91, 100, 6, 40, 103, 76, 47, 108, 10, 8, 73, -82, 97, 110, 111, 5, 76, 47, 12, 12, 1, 0, 10, 118, 115, 111, 1, 40, 73, 109, 10, 97, -23, 111, 12, 1, 76, 47, 106, 79, 1, 102, 47, 101, 1, 114, 10, 118, 7, 6, 40, 10, 47, 90, 1, 105, 12, 1, 121, 47, 110, 117, 105, 21, 14, 116, 106, 122, 114, 105, 114, 10, 106, 108, 97, 59, 10, 116, 1, 105, 117, 35, 114, 114, 0, 110, 114, 99, 40, 12, 1, 1, 108, 103, 1, 106, 82, 101, 0, 101, 0, 32, 1, 97, 116, 101, -39, 118, 114, 47, 119, 70, 6, 1, 105, 32, 116, 117, 105, 116, 117, 105, 4, 97, 101, 7, 7, 1, 47, 114, 101, 100, 0, 110, 111, 70, 108, 101, 0, 0, 0, 2, 103, 103, 0, 6, 106, 69, 1, 111, 47, 111, 121, 116, 7, 7, -11, 5, 91, 105, 108, 1, 115, 1, 101, 41, 99, 117, 102, 47, 109, 117, 65, 116, 3, 79, 102, 0, 97, 101, 125, 97, 101, 1, 1, 108, 116, 1, 100, 76, 47, 97, 117, 91, 108, 97, 1, 106, 83, 0, 121, 47, 99, 108, 116, -113, 114, 108, 103, 1, 0, 99, 103, 118, 1, 110, 108, 40, 104, 47, 101, 97, 59, 103, 101, 0, 97, 104, 86, -98, 102, 108, 114, 106, 84, 1, 101, 109, 101, 97, 105, 117, 97, 1, 105, 105, 13, 117, 97, 116, 118, 114, 101, -87, 69, 47, 65, 36, -81, 101, 40, 108, 105, 101, 97, 59, -76, 110, 115, 97, 47, 115, 1, 1, 115, 101, 47, 110, 10, 116, 101, 97, 47, 1, 116, 97, 47, 115, 100, 100, 110, 114, 47, 110, 110, 110, 12, 114, 94, 67, 1, 47, 110, 1, 0, 47, 111, 67, 106, 83, 97, 108, 118, 97, 100, 7, 97, 106, 73, 1, 0, 108, 7, 101, -39, 12, 1, 105, 98, 67, 10, 10, 116, 47, 99, 97, 59, 110, 12, 1, 110, 1, 108, 99, 1, 101, 47, 99, 108, 116, 97, 59, -14, -66, 22, 47, 110, 98, 115, 110, 97, 116, 118, 114, 10, 10, 116, 116, 118, 85, 105, 101, 0, 117, 97, 2, 106, 106, 101, 77, 26, 116, 110, 2, 103, 121, 47, 110, 117, 97, 16, 10, 101, 47, 110, 108, 103, 2, 108, 0, 97, 59, 0, 97, 47, 2, 100, 0, 47, 67, 59, 32, 101, 101, 0, 101, 100, 2, 108, 103, 10, 116, 76, 97, 12, 1, 110, 12, 1, 32, 115, 111, 101, 101, 8, 97, 11, 114, 47, 110, 97, 59, 103, 86, 56, 58, 114, 104, 114, 102, 115, 116, 100, 100, 114, 101, 115, 32, 102, 32, 62, 12, 1, 99, 101, 1, 110, 106, 105, 103, 2, 100, 115, 47, 110, 118, 121, 99, 108, 59, 74, 2, 0, 110, 114, 116, 108, 32, 0, 110, 0, 110, 62, 47, 115, 47, 115, 120, 0, 76, 47, 116, 1, 97, 101, 76, 110, 110, 67, 59, 101, 117, 97, 116, 100, 116, 100, 115, 99, 0, 99, 97, 76, 110, 114, 102, 115, 117, 118, 121, 99, 2, 107, 2, 120, 98, 2, 97, 111, 7, 18, 108, 2, 0, 97, 118, 99, 97, 105, 0, 127, 97, 105, 114, 2, -124, 13, 110, 97, 115, 2, 0, 97, 118, 116, -117, 14, 108, 15, 111, 0, 97, 59, 110, 117, 2, 114, 109, 114, 99, 114, 115, 106, 111, 11, 111, 76, 108, 0, 17, 116, -97, 1, 97, 76, 115, 115, 112, 102, 41, 101, 112, 121, 115, 101, 111, 116, 97, 114, 97, 111, 101, 0, 103, 99, 116, 106, 73, 105, 111, 118, 83, 69, 2, 108, 99, 105, 120, -79, 111, 116, 103, 7, 101, 118, 116, 2, 68, 1, 108, 116, 97, 76, 109, 97, 82, 73, 110, 47, 77, 111, 0, 100, 2, 111, 10, 112, 116, 97, 111, 98, 104, 108, 58, 116, -25, 105, 2, 0, 99, 105, 116, 0, 109, 112, 108, -47, 32, 115, 67, 111, 114]
+[21:39:41] [DnxLoaderThread-2/DEBUG] [MPS]: [MPS] Integrity check passed
+[21:39:41] [DnxLoaderThread-2/DEBUG] [MPS]: [MPS] Loaded MPS resource loader
+[21:39:41] [DnxLoaderThread-2/DEBUG] [FML]: Bar Step: MPS setup : DynamXEA - Loading files took 0.010s
+[21:39:41] [DnxLoaderThread-2/INFO] [MPS]: [MPS] Has loaded 0 protected dependencies !
+[21:39:41] [DnxLoaderThread-2/DEBUG] [FML]: Bar Step: MPS setup : DynamXEA - Load repositories took 0.000s
+[21:39:41] [DnxLoaderThread-2/DEBUG] [FML]: Bar Finished: MPS setup : DynamXEA took 0.536s
+[21:39:41] [DnxLoaderThread-2/DEBUG] [ACsLib]: [ThrLoad] Finished ThreadedLoadingTask{id=1, name='certs_mps'} in 569 ms during fr.aym.acslib.api.services.ThreadedLoadingService$ModLoadingSteps@79c13674
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Finished: DynamX : certs_mps - certs_mps took 0.297s
+[21:39:41] [Client thread/DEBUG] [ACsLib]: [ThrLoad] Waited 297 ms
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - ClientProxy$$Lambda$146/1499959996 took 0.005s
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Finished: Constructing DynamX took 0.714s
+[21:39:41] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod dynamxmod
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Step: Construction - DynamX took 1.246s
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Finished: Construction took 2.430s
+[21:39:41] [Client thread/DEBUG] [FML]: Mod signature data
+[21:39:41] [Client thread/DEBUG] [FML]:  	Valid Signatures:
+[21:39:41] [Client thread/DEBUG] [FML]:  	Missing Signatures:
+[21:39:41] [Client thread/DEBUG] [FML]: 		minecraft	(Minecraft	1.12.2)	minecraft.jar
+[21:39:41] [Client thread/DEBUG] [FML]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jar
+[21:39:41] [Client thread/DEBUG] [FML]: 		FML	(Forge Mod Loader	8.0.99.99)	forge-1.12.2-14.23.5.2860_mapped_snapshot_20171003-1.12-recomp.jar
+[21:39:41] [Client thread/DEBUG] [FML]: 		forge	(Minecraft Forge	14.23.5.2860)	forge-1.12.2-14.23.5.2860_mapped_snapshot_20171003-1.12-recomp.jar
+[21:39:41] [Client thread/DEBUG] [FML]: 		obfuscate	(Obfuscate	0.2.7)	minecraft.jar
+[21:39:41] [Client thread/DEBUG] [FML]: 		modularvc	(ModularVoiceChat	1.1.1)	ModularVoiceChat-1.1.1.jar
+[21:39:41] [Client thread/DEBUG] [FML]: 		sdm	(sdm	1.0)	simpledatabasemanager-1.0.jar
+[21:39:41] [Client thread/DEBUG] [FML]: 		phonemod	(phonemod	V1.0)	main
+[21:39:41] [Client thread/DEBUG] [FML]: 		acslib	(ACsLib	1.1.0-5)	ACsGuis-1.2.1-3_mapped_snapshot_20171003-1.12.jar
+[21:39:41] [Client thread/DEBUG] [FML]: 		dynamxmod	(DynamX	3.3.1)	DynamX-3.3.1-rd3_mapped_snapshot_20171003-1.12.jar
+[21:39:41] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:phonemod, FMLFileResourcePack:ModularVoiceChat, FMLFileResourcePack:sdm, FMLFileResourcePack:DynamX, FMLFileResourcePack:ACsLib
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - Default took 0.003s
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.003s
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.003s
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:phonemod took 0.003s
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:ModularVoiceChat took 0.000s
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:sdm took 0.000s
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:DynamX took 0.001s
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:ACsLib took 0.001s
+[21:39:41] [Client thread/INFO] [Obfuscate]: Applying ASM to RenderItem
+[21:39:41] [Client thread/INFO] [Obfuscate]: Successfully patched RenderItem
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Finished: Reloading took 0.046s
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - Reloading listeners took 0.046s
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resources took 0.061s
+[21:39:41] [DnxLoaderThread-2/INFO] [DynamX]: Reloading Packs
+[21:39:41] [DnxLoaderThread-2/INFO] [DynamX]: Running now
+[21:39:41] [Client thread/DEBUG] [FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[21:39:41] [Client thread/DEBUG] [FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[21:39:41] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[21:39:41] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[21:39:41] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[21:39:41] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[21:39:41] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod minecraft
+[21:39:41] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod minecraft
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft took 0.004s
+[21:39:41] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mcp
+[21:39:41] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod mcp
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.000s
+[21:39:41] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod FML
+[21:39:41] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod FML
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Forge Mod Loader took 0.007s
+[21:39:41] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod forge
+[21:39:41] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[21:39:41] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod forge
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Forge took 0.120s
+[21:39:41] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod obfuscate
+[21:39:41] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[21:39:41] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod obfuscate
+[21:39:41] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Obfuscate took 0.020s
+[21:39:41] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod modularvc
+[21:39:42] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod modularvc
+[21:39:42] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - ModularVoiceChat took 0.213s
+[21:39:42] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod sdm
+[21:39:42] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod sdm
+[21:39:42] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - sdm took 0.015s
+[21:39:42] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod phonemod
+[21:39:42] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod phonemod
+[21:39:42] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - phonemod took 0.018s
+[21:39:42] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod acslib
+[21:39:42] [Client thread/DEBUG] [ACsLib]: [ThrLoad] Transition: fr.aym.acslib.api.services.ThreadedLoadingService$ModLoadingSteps@2a6ca8d0
+[21:39:42] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod acslib
+[21:39:42] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - ACsLib took 0.001s
+[21:39:42] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod dynamxmod
+[21:39:42] [Client thread/TRACE] [FML]: Automatically registered mod dynamxmod entity entity_car as dynamxmod:entity_car
+[21:39:42] [Client thread/TRACE] [FML]: Automatically registered mod dynamxmod entity entity_caterpillar as dynamxmod:entity_caterpillar
+[21:39:42] [Client thread/TRACE] [FML]: Automatically registered mod dynamxmod entity entity_trailer as dynamxmod:entity_trailer
+[21:39:42] [Client thread/TRACE] [FML]: Automatically registered mod dynamxmod entity entity_prop as dynamxmod:entity_prop
+[21:39:42] [Client thread/TRACE] [FML]: Automatically registered mod dynamxmod entity entity_ragdoll as dynamxmod:entity_ragdoll
+[21:39:42] [Client thread/TRACE] [FML]: Automatically registered mod dynamxmod entity entity_boat as dynamxmod:entity_boat
+[21:39:42] [Client thread/TRACE] [FML]: Automatically registered mod dynamxmod entity entity_door as dynamxmod:entity_door
+[21:39:42] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod dynamxmod
+[21:39:42] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - DynamX took 0.074s
+[21:39:42] [Client thread/DEBUG] [FML]: Bar Finished: PreInitialization took 0.472s
+[21:39:42] [Client thread/DEBUG] [ACsLib]: [ThrLoad] Transition: fr.aym.acslib.api.services.ThreadedLoadingService$ModLoadingSteps@4e572e47
+[21:39:42] [Client thread/DEBUG] [ACsLib]: [ThrLoad] Waiting on ThreadedLoadingTask{id=2, name='packsload'}
+[21:39:42] [Forge Version Check/DEBUG] [forge.VersionCheck]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.57",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.35",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-latest": "40.1.25",
+    "1.18.2-recommended": "40.1.0"
+  }
+}
+[21:39:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[21:39:42] [Forge Version Check/INFO] [forge.VersionCheck]: [dynamxmod] Starting version check at https://dynamx.fr/mps/updates.json
+[21:39:42] [Forge Version Check/DEBUG] [forge.VersionCheck]: [dynamxmod] Received version check data:
+   {
+     "homepage": "https://dynamx.fr",
+     "promos": {
+       "1.12.2-latest" : "3.1.0",
+       "1.12.2-recomended" : "3.1.0"
+     },
+     "1.12.0" : {
+       "3.1.0" : "Fixes and improved driving experience",
+       "3.0.1" : "Fix pack loading issues",
+       "3.0.0" : "Public beta",
+       "2.17.4" : "Fixes and improvements, see DynamX discord",
+       "2.12.1" : "Am�lioration des pentes, propri�t�s d'armures et fixs",
+       "2.12.2" : "Fixs",
+       "2.13.0" : "https://dynamx.fr/earlyaccess/changelogs/DynamX-2.13.0.html",      
+       "2.12.2" : "https://dynamx.fr/earlyaccess/changelogs/"
+     }
+   }
+[21:39:42] [Forge Version Check/INFO] [forge.VersionCheck]: [dynamxmod] Found status: BETA Target: null
+[21:39:46] [DnxLoaderThread-2/DEBUG] [FML]: Bar Finished: Generating block shapes - dynx.phonemod.Téléphone took 4.498s
+[21:39:46] [DnxLoaderThread-2/DEBUG] [FML]: Bar Finished: Loading content pack system took 4.501s
+[21:39:46] [DnxLoaderThread-2/INFO] [DynamX]: Loaded 0 content packs
+[21:39:46] [DnxLoaderThread-2/INFO] [DynamX]: Finished Packs reloading
+[21:39:46] [DnxLoaderThread-2/INFO] [STDOUT]: [fr.dynamx.common.contentpack.ContentPackLoader:reload:352]: LOAD END
+[21:39:46] [DnxLoaderThread-2/DEBUG] [ACsLib]: [ThrLoad] Finished ThreadedLoadingTask{id=2, name='packsload'} in 4521 ms during fr.aym.acslib.api.services.ThreadedLoadingService$ModLoadingSteps@2a6ca8d0
+[21:39:46] [Client thread/DEBUG] [FML]: Bar Finished: DynamX : packsload - packsload took 3.970s
+[21:39:46] [DnxLoaderThread-1/INFO] [DynamX]: Registered 1 obj models
+[21:39:46] [Client thread/DEBUG] [ACsLib]: [ThrLoad] Waited 3970 ms
+[21:39:46] [Client thread/INFO] [STDOUT]: [fr.dynamx.common.handlers.CommonEventHandler$RegisterObjects:registerBlocks:330]: FOR
+[21:39:46] [DnxLoaderThread-1/INFO] [DynamX]: Reloading Models
+[21:39:46] [DnxLoaderThread-1/INFO] [DynamX]: Running now
+[21:39:46] [DnxLoaderThread-1/INFO] [DynamX]: Reloading all models...
+[21:39:46] [DnxLoaderThread-1/DEBUG] [FML]: Bar Finished: Loading Resource - ClientProxy took 0.005s
+[21:39:46] [DnxLoaderThread-1/DEBUG] [ACsLib]: [ThrLoad] Finished ThreadedLoadingTask{id=3, name='proxy preinit'} in 56 ms during fr.aym.acslib.api.services.ThreadedLoadingService$ModLoadingSteps@4e572e47
+[21:39:46] [DnxLoaderThread-2/DEBUG] [DynamX]: Loading tessellator model phone/phone.obj
+[21:39:46] [Client thread/INFO] [FML]: Applying holder lookups
+[21:39:46] [Client thread/INFO] [FML]: Holder lookups applied
+[21:39:46] [Client thread/DEBUG] [ACsLib]: [ThrLoad] Transition: fr.aym.acslib.api.services.ThreadedLoadingService$ModLoadingSteps@5a04e7ef
+[21:39:46] [Client thread/INFO] [FML]: Applying holder lookups
+[21:39:46] [Client thread/INFO] [FML]: Holder lookups applied
+[21:39:46] [Client thread/INFO] [FML]: Applying holder lookups
+[21:39:46] [Client thread/INFO] [FML]: Holder lookups applied
+[21:39:46] [Client thread/INFO] [FML]: Applying holder lookups
+[21:39:46] [Client thread/INFO] [FML]: Holder lookups applied
+[21:39:46] [Client thread/INFO] [FML]: Injecting itemstacks
+[21:39:46] [Client thread/INFO] [FML]: Itemstack injection complete
+[21:39:46] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - TextureManager took 0.000s
+[21:39:49] [Client thread/WARN] [net.minecraft.client.audio.SoundHandler]: File zoneecho:sounds/master.ping.ogg does not exist, cannot add it to event phonemod:master.ping
+[21:39:49] [Client thread/WARN] [net.minecraft.client.audio.SoundHandler]: File zoneecho:sounds/master.keycardok.ogg does not exist, cannot add it to event phonemod:master.keycardok
+[21:39:49] [Client thread/WARN] [net.minecraft.client.audio.SoundHandler]: File zoneecho:sounds/master.keycardno.ogg does not exist, cannot add it to event phonemod:master.keycardno
+[21:39:49] [Client thread/DEBUG] [FML]: Bar Finished: Loading sounds took 3.123s
+[21:39:49] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - SoundHandler took 3.140s
+[21:39:49] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[21:39:49] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - FontRenderer took 0.004s
+[21:39:49] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - FontRenderer took 0.004s
+[21:39:49] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - GrassColorReloadListener took 0.010s
+[21:39:49] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0.008s
+[21:39:49] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - GL Setup took 0.001s
+[21:39:49] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Texture Map took 0.004s
+[21:39:49] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[21:39:49] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:39:49] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[21:39:50] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[21:39:51] [DnxLoaderThread-2/DEBUG] [DynamX]: Tex manager wait took 0 ms
+[21:39:51] [DnxLoaderThread-2/DEBUG] [ACsLib]: [ThrLoad] Finished ThreadedLoadingTask{id=4, name='model_load'} in 4821 ms during fr.aym.acslib.api.services.ThreadedLoadingService$ModLoadingSteps@5a04e7ef
+[21:39:53] [Client thread/DEBUG] [FML]: Bar Finished: ModelLoader: blocks took 3.733s
+[21:39:55] [Client thread/DEBUG] [DynamX]: Registered item model dynamxmod:téléphone.obj#inventory_0 for phone/phone.obj of dynx.phonemod with render locations ALL
+[21:39:55] [Client thread/DEBUG] [FML]: Bar Finished: ModelLoader: items took 1.814s
+[21:39:55] [Client thread/INFO] [FML]: Max texture size: 16384
+[21:39:57] [Client thread/DEBUG] [FML]: Bar Finished: Texture stitching took 2.821s
+[21:39:58] [Client thread/DEBUG] [FML]: Bar Finished: Texture stitching took 0.424s
+[21:39:58] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[21:39:58] [Client thread/DEBUG] [FML]: Bar Finished: Texture creation took 0.426s
+[21:39:58] [Client thread/DEBUG] [FML]: Bar Finished: Texture mipmap and upload took 0.020s
+[21:39:58] [Client thread/DEBUG] [FML]: Bar Finished: ModelLoader: baking took 0.304s
+[21:39:58] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - ModelManager took 9.222s
+[21:39:58] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Model Manager took 9.254s
+[21:39:58] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - RenderItem took 0.009s
+[21:39:58] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Item Renderer took 0.218s
+[21:39:58] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - EntityRenderer took 0.000s
+[21:39:58] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - BlockRendererDispatcher took 0.000s
+[21:39:59] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - RenderGlobal took 0.000s
+[21:39:59] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - SearchTreeManager took 0.072s
+[21:39:59] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Entity Renderer took 0.290s
+[21:39:59] [Client thread/DEBUG] [FML]: Bar Finished: Rendering Setup took 9.767s
+[21:39:59] [Client thread/INFO] [FML]: Applying holder lookups
+[21:39:59] [Client thread/INFO] [FML]: Holder lookups applied
+[21:39:59] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod minecraft
+[21:39:59] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod minecraft
+[21:39:59] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft took 0.000s
+[21:39:59] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod mcp
+[21:39:59] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod mcp
+[21:39:59] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
+[21:39:59] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod FML
+[21:39:59] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod FML
+[21:39:59] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[21:39:59] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod forge
+[21:39:59] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod forge
+[21:39:59] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[21:39:59] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod obfuscate
+[21:39:59] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod obfuscate
+[21:39:59] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Obfuscate took 0.012s
+[21:39:59] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod modularvc
+[21:39:59] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod modularvc
+[21:39:59] [Client thread/DEBUG] [FML]: Bar Step: Initialization - ModularVoiceChat took 0.000s
+[21:39:59] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod sdm
+[21:39:59] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod sdm
+[21:39:59] [Client thread/DEBUG] [FML]: Bar Step: Initialization - sdm took 0.000s
+[21:39:59] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod phonemod
+[21:39:59] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod phonemod
+[21:39:59] [Client thread/DEBUG] [FML]: Bar Step: Initialization - phonemod took 0.000s
+[21:39:59] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod acslib
+[21:39:59] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - CssGuisManager took 0.002s
+[21:39:59] [DnxLoaderThread-2/INFO] [ACsGuis]: Loading CSS sheets...
+[21:39:59] [Client thread/DEBUG] [ACsLib]: [ThrLoad] Transition: fr.aym.acslib.api.services.ThreadedLoadingService$ModLoadingSteps@21be0ce3
+[21:39:59] [Client thread/INFO] [DynamX]: Loading model textures and compiling display lists...
+[21:39:59] [Client thread/ERROR] [DynamX]: Failed to load Default texture of Spiral.001 in dynamxmod:models/phone/phone.obj in material Material.002
+[21:39:59] [DnxLoaderThread-2/INFO] [ACsGuis]: [CSS] Loaded css style sheet acsguis:css/default_style.css
+[21:39:59] [DnxLoaderThread-2/INFO] [ACsGuis]: [CSS] Loaded css style sheet dynamxmod:css/block_custom.css
+[21:39:59] [DnxLoaderThread-2/INFO] [ACsGuis]: [CSS] Loaded css style sheet dynamxmod:css/dnx_debug.css
+[21:39:59] [DnxLoaderThread-2/INFO] [ACsGuis]: [CSS] Loaded css style sheet dynamxmod:css/vehicle_hud.css
+[21:39:59] [DnxLoaderThread-2/INFO] [ACsGuis]: [CSS] Loaded css style sheet dynamxmod:css/slope_generator.css
+[21:39:59] [DnxLoaderThread-2/INFO] [ACsGuis]: [CSS] Loaded css style sheet dynamxmod:css/main.css
+[21:39:59] [DnxLoaderThread-2/INFO] [ACsGuis]: [CSS] Loaded css style sheet dynamxmod:css/config.css
+[21:39:59] [DnxLoaderThread-2/ERROR] [ACsGuis]: Error while loading css sheet dynamxmod:css/call.css
+java.lang.RuntimeException: Cannot load css resource dynamxmod:css/call.css
+	at fr.aym.acsguis.cssengine.parsing.ACsGuisCssParser.parseCssSheet(ACsGuisCssParser.java:116) ~[ACsGuisCssParser.class:?]
+	at fr.aym.acsguis.cssengine.CssGuisManager.reloadAllCssSheets(CssGuisManager.java:69) ~[CssGuisManager.class:?]
+	at fr.aym.acsguis.utils.CssReloadOrigin.loadStyles(CssReloadOrigin.java:53) ~[CssReloadOrigin.class:?]
+	at fr.aym.acsguis.api.ACsGuiApi.lambda$reloadCssStyles$0(ACsGuiApi.java:136) ~[ACsGuiApi.class:?]
+	at fr.aym.acslib.services.impl.thrload.DThreadedLoadingTask.run(DThreadedLoadingTask.java:41) [DThreadedLoadingTask.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_201]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_201]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+Caused by: java.io.FileNotFoundException: dynamxmod:css/call.css
+	at fr.aym.acsguis.cssengine.parsing.ACsGuisCssParser.getResource(ACsGuisCssParser.java:173) ~[ACsGuisCssParser.class:?]
+	at fr.aym.acsguis.cssengine.parsing.ACsGuisCssParser.parseCssSheet(ACsGuisCssParser.java:114) ~[ACsGuisCssParser.class:?]
+	... 9 more
+[21:39:59] [DnxLoaderThread-2/INFO] [ACsGuis]: [CSS] Loaded css style sheet phonemod:css/config.css
+[21:39:59] [DnxLoaderThread-2/DEBUG] [FML]: Bar Finished: Load CSS sheets took 0.125s
+[21:39:59] [DnxLoaderThread-2/DEBUG] [ACsGuis]: Font renderer wait took 0 ms
+[21:39:59] [DnxLoaderThread-2/DEBUG] [ACsLib]: [ThrLoad] Finished ThreadedLoadingTask{id=5, name='css_load'} in 125 ms during fr.aym.acslib.api.services.ThreadedLoadingService$ModLoadingSteps@21be0ce3
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Finished: Loading obj models took 0.763s
+[21:40:00] [Client thread/INFO] [DynamX]: Finished Models reloading
+[21:40:00] [Client thread/DEBUG] [ACsLib]: [ThrLoad] TT Took 1596 ms
+[21:40:00] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod acslib
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: Initialization - ACsLib took 1.599s
+[21:40:00] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod dynamxmod
+[21:40:00] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod dynamxmod
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: Initialization - DynamX took 0.043s
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Finished: Initialization took 1.656s
+[21:40:00] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod minecraft
+[21:40:00] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod minecraft
+[21:40:00] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod minecraft
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft took 0.003s
+[21:40:00] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod mcp
+[21:40:00] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod mcp
+[21:40:00] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod mcp
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.000s
+[21:40:00] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod FML
+[21:40:00] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod FML
+[21:40:00] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod FML
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
+[21:40:00] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod forge
+[21:40:00] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod forge
+[21:40:00] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod forge
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
+[21:40:00] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod obfuscate
+[21:40:00] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod obfuscate
+[21:40:00] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod obfuscate
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Obfuscate took 0.000s
+[21:40:00] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod modularvc
+[21:40:00] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod modularvc
+[21:40:00] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod modularvc
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - ModularVoiceChat took 0.000s
+[21:40:00] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod sdm
+[21:40:00] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod sdm
+[21:40:00] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod sdm
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - sdm took 0.000s
+[21:40:00] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod phonemod
+[21:40:00] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod phonemod
+[21:40:00] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod phonemod
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - phonemod took 0.000s
+[21:40:00] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod acslib
+[21:40:00] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod acslib
+[21:40:00] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod acslib
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - ACsLib took 0.000s
+[21:40:00] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod dynamxmod
+[21:40:00] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod dynamxmod
+[21:40:00] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod dynamxmod
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - DynamX took 0.000s
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Finished: InterModComms$IMC took 0.004s
+[21:40:00] [Client thread/INFO] [FML]: Injecting itemstacks
+[21:40:00] [Client thread/INFO] [FML]: Itemstack injection complete
+[21:40:00] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod minecraft
+[21:40:00] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod minecraft
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft took 0.000s
+[21:40:00] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod mcp
+[21:40:00] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod mcp
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[21:40:00] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod FML
+[21:40:00] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod FML
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[21:40:00] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod forge
+[21:40:00] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod forge
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Forge took 0.007s
+[21:40:00] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod obfuscate
+[21:40:00] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod obfuscate
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Obfuscate took 0.000s
+[21:40:00] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod modularvc
+[21:40:00] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod modularvc
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - ModularVoiceChat took 0.000s
+[21:40:00] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod sdm
+[21:40:00] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod sdm
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - sdm took 0.000s
+[21:40:00] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod phonemod
+[21:40:00] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod phonemod
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - phonemod took 0.000s
+[21:40:00] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod acslib
+[21:40:00] [Client thread/DEBUG] [ACsLib]: [ThrLoad] Transition: fr.aym.acslib.api.services.ThreadedLoadingService$ModLoadingSteps@7f517c2e
+[21:40:00] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod acslib
+[21:40:00] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - ACsLib took 0.000s
+[21:40:00] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod dynamxmod
+[21:40:00] [Client thread/DEBUG] [DynamX]: ---- Start Reflection ----
+[21:40:00] [Client thread/DEBUG] [DynamX]: func_184231_a
+[21:40:00] [Client thread/DEBUG] [DynamX]: func_70081_e
+[21:40:00] [Client thread/DEBUG] [DynamX]: func_70041_e_
+[21:40:00] [Client thread/DEBUG] [DynamX]: func_145775_I
+[21:40:00] [Client thread/DEBUG] [DynamX]: func_180429_a
+[21:40:00] [Client thread/DEBUG] [DynamX]: func_191954_d
+[21:40:00] [Client thread/DEBUG] [DynamX]: func_191957_ae
+[21:40:00] [Client thread/DEBUG] [DynamX]: func_175680_a
+[21:40:01] [Client thread/DEBUG] [DynamX]: ---- End Reflection ----
+[21:40:01] [Client thread/INFO] [DynamX]: Successfully applied reflection
+[21:40:01] [Client thread/INFO] [DynamX]: Sorting SynchronizedVariables registry ids...
+[21:40:01] [Client thread/DEBUG] [DynamX]: Fixing SynchronizedVariables registry ids...
+[21:40:01] [Client thread/DEBUG] [DynamX]: Add : dynamxmod:wphysics = 8
+[21:40:01] [Client thread/DEBUG] [DynamX]: Add : dynamxmod:pos = 6
+[21:40:01] [Client thread/DEBUG] [DynamX]: Add : dynamxmod:wvisuals = 9
+[21:40:01] [Client thread/DEBUG] [DynamX]: Add : dynamxmod:doorsstatus = 3
+[21:40:01] [Client thread/DEBUG] [DynamX]: Add : dynamxmod:visuals = 7
+[21:40:01] [Client thread/DEBUG] [DynamX]: Add : dynamxmod:attach/doors = 0
+[21:40:01] [Client thread/DEBUG] [DynamX]: Add : dynamxmod:attach/ragdoll = 1
+[21:40:01] [Client thread/DEBUG] [DynamX]: Add : dynamxmod:controls = 2
+[21:40:01] [Client thread/DEBUG] [DynamX]: Add : dynamxmod:movable = 5
+[21:40:01] [Client thread/DEBUG] [DynamX]: Add : dynamxmod:engine = 4
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod dynamxmod
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - DynamX took 0.026s
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Finished: PostInitialization took 0.035s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod minecraft
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod minecraft
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft took 0.000s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod mcp
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod mcp
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod FML
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod FML
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod forge
+[21:40:01] [Client thread/DEBUG] [FML]: Forge RecipeSorter Baking:
+[21:40:01] [Client thread/DEBUG] [FML]:   16: RecipeEntry("Before", UNKNOWN, )
+[21:40:01] [Client thread/DEBUG] [FML]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[21:40:01] [Client thread/DEBUG] [FML]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[21:40:01] [Client thread/DEBUG] [FML]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[21:40:01] [Client thread/DEBUG] [FML]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[21:40:01] [Client thread/DEBUG] [FML]:   11: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[21:40:01] [Client thread/DEBUG] [FML]:   10: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless
+[21:40:01] [Client thread/DEBUG] [FML]:   9: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[21:40:01] [Client thread/DEBUG] [FML]:   8: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[21:40:01] [Client thread/DEBUG] [FML]:   7: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[21:40:01] [Client thread/DEBUG] [FML]:   6: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless
+[21:40:01] [Client thread/DEBUG] [FML]:   5: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[21:40:01] [Client thread/DEBUG] [FML]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[21:40:01] [Client thread/DEBUG] [FML]:   3: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[21:40:01] [Client thread/DEBUG] [FML]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[21:40:01] [Client thread/DEBUG] [FML]:   1: RecipeEntry("After", UNKNOWN, )
+[21:40:01] [Client thread/DEBUG] [FML]: Sorting recipes
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod forge
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Forge took 0.006s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod obfuscate
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod obfuscate
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Obfuscate took 0.000s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod modularvc
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod modularvc
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - ModularVoiceChat took 0.000s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod sdm
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod sdm
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - sdm took 0.000s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod phonemod
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod phonemod
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - phonemod took 0.000s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod acslib
+[21:40:01] [Client thread/DEBUG] [ACsLib]: [ThrLoad] Transition: fr.aym.acslib.api.services.ThreadedLoadingService$ModLoadingSteps@7b50d62
+[21:40:01] [Client thread/INFO] [ACsLib]: [ThrLoad] Le lancement multithreadé a économisé 10095 ms
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod acslib
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - ACsLib took 0.000s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod dynamxmod
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod dynamxmod
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - DynamX took 0.000s
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Finished: LoadComplete took 0.007s
+[21:40:01] [Client thread/DEBUG] [FML]: Freezing registries
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod minecraft
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod minecraft
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft took 0.000s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod mcp
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod mcp
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod FML
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod FML
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod forge
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod forge
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Forge took 0.060s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod obfuscate
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod obfuscate
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Obfuscate took 0.000s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod modularvc
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod modularvc
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - ModularVoiceChat took 0.000s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod sdm
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod sdm
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - sdm took 0.000s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod phonemod
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod phonemod
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - phonemod took 0.000s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod acslib
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod acslib
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - ACsLib took 0.000s
+[21:40:01] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod dynamxmod
+[21:40:01] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod dynamxmod
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - DynamX took 0.000s
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Finished: ModIdMapping took 0.061s
+[21:40:01] [Client thread/DEBUG] [FML]: All registries frozen
+[21:40:01] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 10 mods
+[21:40:01] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Finished: Loading took 23.413s
+[21:40:01] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[21:40:01] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - CloudRenderer took 0.006s
+[21:40:01] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
