@@ -42,6 +42,7 @@ public class PhoneMod {
     public static SimpleNetworkWrapper network;
     public static Logger logger;
     public static Database dbPhones;
+    public static Database dbPhonesRing;
 
 
 
@@ -60,6 +61,10 @@ public class PhoneMod {
         network.registerMessage(PacketMainMenu.Handler.class, PacketMainMenu.class, 1, Side.CLIENT);
         SyncedDatabases.add("phonemod_data");
         dbPhones = Databases.getDatabase("phonemod_data");
+
+        SyncedDatabases.add("phonemod_ring");
+        dbPhonesRing = Databases.getDatabase("phonemod_ring");
+
 
         MinecraftForge.EVENT_BUS.register(this);
         MinecraftForge.EVENT_BUS.register(SpeakHandler.class);

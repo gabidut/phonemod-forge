@@ -3,6 +3,7 @@ package fr.gabidut76.mods.phonemod.objects.blocks;
 import fr.dynamx.common.blocks.DynamXBlock;
 import fr.gabidut76.mods.phonemod.PhoneMod;
 import fr.gabidut76.mods.phonemod.objects.tiles.TilePhone;
+import fr.gabidut76.mods.phonemod.util.network.PacketCallMenu;
 import fr.gabidut76.mods.phonemod.util.network.PacketMainMenu;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -68,7 +69,14 @@ public class BlockDynxPhone extends DynamXBlock {
     @Override
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         if(!worldIn.isRemote) {
-            PhoneMod.network.sendTo(new PacketMainMenu(Objects.requireNonNull(worldIn.getTileEntity(pos)).getTileData().getInteger("code")), (EntityPlayerMP) playerIn);
+            if(PhoneMod.dbPhonesRing.getInteger(String.valueOf(Objects.requireNonNull(worldIn.getTileEntity(pos)).getTileData().getInteger("code"))) == 1) {
+                PhoneMod.network.sendTo(new PacketCallMenu(Objects.requireNonNull(worldIn.getTileEntity(pos)).getTileData().getInteger("code")), (EntityPlayerMP) playerIn);
+                return true;
+            } else {
+                PhoneMod.network.sendTo(new PacketMainMenu(Objects.requireNonNull(worldIn.getTileEntity(pos)).getTileData().getInteger("code")), (EntityPlayerMP) playerIn);
+                return true;
+            }
+
         }
         return true;
     }

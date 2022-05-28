@@ -1,12 +1,11 @@
 package fr.gabidut76.mods.phonemod.util.command;
 
 import fr.gabidut76.mods.phonemod.PhoneMod;
+import fr.gabidut76.mods.phonemod.util.CallManger;
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
-import net.minecraft.init.SoundEvents;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextComponentString;
 
@@ -31,7 +30,7 @@ public class CommandPhoneMod extends CommandBase {
             sender.sendMessage(new TextComponentString("Ringing..."));
             BlockPos pos = PhoneMod.dbPhones.get(args[1]).asBlockPos();
 
-            sender.getEntityWorld().playSound(pos.getX(), pos.getY(), pos.getZ(), SoundEvents.BLOCK_ANVIL_BREAK, SoundCategory.BLOCKS, 1, 1, true);
+            CallManger.call(Integer.parseInt(args[1]), true, sender.getEntityWorld());
 
             // TODO: try and catch if null pointer exception number isn't in the database so no attributed
 

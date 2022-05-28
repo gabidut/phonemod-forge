@@ -10,11 +10,11 @@ import java.util.Collections;
 import java.util.List;
 import java.util.regex.Pattern;
 
-public class GuiMain extends GuiFrame {
+public class GuiCalling extends GuiFrame {
 
     String composed_number = "";
 
-    public GuiMain(int phoneNumber) {
+    public GuiCalling(int phoneNumber) {
         super(new GuiScaler.Identity());
 
         GuiPanel home = new GuiPanel();
