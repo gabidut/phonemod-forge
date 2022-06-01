@@ -52,19 +52,6 @@ public class BlockDynxPhone extends DynamXBlock {
         }
     }
 
-    @Override
-    public void onBlockDestroyedByExplosion(World worldIn, BlockPos pos, Explosion explosionIn) {
-        if(!worldIn.isRemote) {
-            PhoneMod.dbPhones.remove(String.valueOf(Objects.requireNonNull(worldIn.getTileEntity(pos)).getTileData().getInteger("code")));
-        }
-    }
-
-    @Override
-    public void onBlockDestroyedByPlayer(World worldIn, BlockPos pos, IBlockState state) {
-        if(!worldIn.isRemote) {
-            PhoneMod.dbPhones.remove(String.valueOf(Objects.requireNonNull(worldIn.getTileEntity(pos)).getTileData().getInteger("code")));
-        }
-    }
 
     @Override
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {

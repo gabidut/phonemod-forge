@@ -3,6 +3,7 @@ package fr.gabidut76.mods.phonemod;
 
 import fr.aym.acsguis.api.ACsGuiApi;
 import fr.dynamx.api.contentpack.DynamXAddon;
+import fr.gabidut76.mods.phonemod.network.Network;
 import fr.gabidut76.mods.phonemod.objects.blocks.BlockDynxPhone;
 import fr.gabidut76.mods.phonemod.objects.tiles.TilePhone;
 import fr.gabidut76.mods.phonemod.proxy.CommonProxy;
@@ -52,13 +53,10 @@ public class PhoneMod {
         logger = e.getModLog();
         proxy.preInit();
         /* network */
-        network = NetworkRegistry.INSTANCE.newSimpleChannel("phonemod");
-
+        Network.init();
         if(e.getSide().isClient()) {
-            ACsGuiApi.registerStyleSheetToPreload(new ResourceLocation(Ref.MODID,"css/config.css"));
+            ACsGuiApi.registerStyleSheetToPreload(new ResourceLocation(Ref.MODID, "css/config.css"));
         }
-        network.registerMessage(PacketOpenConfig.Handler.class, PacketOpenConfig.class, 0, Side.CLIENT);
-        network.registerMessage(PacketMainMenu.Handler.class, PacketMainMenu.class, 1, Side.CLIENT);
         SyncedDatabases.add("phonemod_data");
         dbPhones = Databases.getDatabase("phonemod_data");
 
@@ -86,7 +84,6 @@ public class PhoneMod {
     @Mod.EventHandler
     public void serverStarting(FMLServerStartingEvent event) {
         event.registerServerCommand(new CommandPhoneMod());
-
     }
 }
 

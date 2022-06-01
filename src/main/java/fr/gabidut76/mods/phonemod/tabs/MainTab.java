@@ -12,10 +12,11 @@ public class MainTab extends CreativeTabs
         super(label);
         this.label = label;
     }
+
     @Override
-    public ItemStack getTabIconItem()
-    {
-            return new ItemStack(PhoneMod.phoneblock);
-        }
+    public ItemStack createIcon() {
+        return new ItemStack(PhoneMod.phoneblock);
+    }
+
 
 }
